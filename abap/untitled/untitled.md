@@ -6,17 +6,15 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 
 ## 1. Table 
 
-Table은 시스템에서 생성된 데이터를 저장하는 실제 물리적인 공간으로, T-code SE11에서 테이블을 생성하여 활성화하면 데이터베이스에 물리적인 테이블이 생성된다. 이는 2차원 행렬로 이루어져 있다. 행렬의 열은 각 이름과 속성이 있으며 이를 field 또는 column이라고 한다. 필드는 테이블 내에서 중복되지 않는 이름을 가지며, MANDT 필드는 필수적으로 존재해야 한다. 테이블의 하나 이상의 필드를 key field로 지정하고 이를 통해 테이블의 레코드들의 중복을 제거하고 관리할 수 있다. ABAP 테이블은 3 종류로 존재하며, 테이블 기본 속성은 DD02L 테이블, 테이블 필드에 대한 정보는 DD03L 테이블에 저장된다.
+Table은 시스템에서 생성된 데이터를 저장하는 실제 물리적인 공간으로, T-code SE11에서 테이블을 생성하여 활성화하면 데이터베이스에 물리적인 테이블이 생성된다. 2차원 행렬로 이루어져 있으며, 행렬의 열은 field 또는 column이라 불다. 필드는 테이블 내에서 중복되지 않는 이름을 가지며, MANDT 필드는 필수적으로 존재해야 한다. ABAP 테이블은 3 종류로 존재하며, 테이블 기본 속성은 DD02L 테이블, 테이블 필드에 대한 정보는 DD03L 테이블에 저장된다.
 
-![table &#xAD6C;&#xC131; &#xC815;&#xBCF4;](../../.gitbook/assets/image%20%2820%29.png)
+![table &#xAD6C;&#xC131; &#xC815;&#xBCF4;](../../.gitbook/assets/image%20%2833%29.png)
 
 ### Table 종류
 
 * Transparent table
 * Pooled table
 * Cluster table
-
-
 
 ### Table 속성
 
@@ -54,7 +52,7 @@ Table은 시스템에서 생성된 데이터를 저장하는 실제 물리적인
   </tbody>
 </table>
 
-## 
+
 
 ## 2. Table Field
 
@@ -64,8 +62,6 @@ Table은 시스템에서 생성된 데이터를 저장하는 실제 물리적인
 
 * Data element : 기존 존재하는 data element 내역 불러옴
 * Predefined type : 직접 입력
-
-
 
 ### Referenced Field & Referenced Table
 
@@ -87,15 +83,11 @@ WRITE 기존 비용 TO 변환 비용 CURRENCY 'KRW'.
 T-code SE11 &gt; Database table 테이블 명 입력 &gt; Create
 {% endhint %}
 
-![T-code SE11](../../.gitbook/assets/image%20%2811%29.png)
+![T-code SE11](../../.gitbook/assets/image%20%2820%29.png)
 
-![short description, delivery class, data browser/table view editing](../../.gitbook/assets/image%20%2819%29.png)
+![short description, delivery class, data browser/table view editing](../../.gitbook/assets/image%20%2831%29.png)
 
-### Short description
-
-테이블 검색 시 유용하게 사용될 수 있는 내역을 입력한다. 
-
-### Delivery class
+### Delivery and Maintenance - Delivery class 설정
 
 <table>
   <thead>
@@ -143,9 +135,30 @@ T-code SE11 &gt; Database table 테이블 명 입력 &gt; Create
   </tbody>
 </table>
 
-### Data browser/Table view maintenance
+### Delivery and Maintenance - Data browser/Table view maintenance 설정
 
 테이블 유지보수에 대한 권한을 설정한다.  
 T-code SE16 테이블 브라우저 권한이 있는 사용자라면 테이블 엔트리를 생성 및 변경할 수 있다.   
 T-code SE30 에서 데이터 유지보수가 가능하다. 
+
+![Fields](../../.gitbook/assets/image%20%2824%29.png)
+
+### Fields 설정
+
+Table의 Field, Column에 대한 설정을 입력한다.
+
+### Technical setting
+
+저장하고 활성화 하려고 하면, Technical setting을 하라고 뜨며 상단 메뉴에서 클릭하여 설정할 수도 있다.   
+Technical setting 부분은 중요한 부분이기 떄문에 따로 다루도록 하겠다.
+
+![Technical setting](../../.gitbook/assets/image%20%2828%29.png)
+
+![Technical setting](../../.gitbook/assets/image%20%2815%29.png)
+
+
+
+## 4. Table 변경
+
+
 

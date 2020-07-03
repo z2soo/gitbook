@@ -8,7 +8,7 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 
 Data element는 테이블 필드의 모든 정보를 가진 ABAP Dictionary 오브젝트이다. 즉, 테이블 필드의 기술적인 속성을 정의하며, Domain을 참조할 수 있으며 필드에 의해 참조 또한 될 수 있다. 다음은 Domain, Data element, Field의 관계를 명시적으로 보여준다. 
 
-![&#xCD9C;&#xCC98; Easy ABAP](../../.gitbook/assets/image%20%2813%29.png)
+![&#xCD9C;&#xCC98; Easy ABAP](../../.gitbook/assets/image%20%2822%29.png)
 
 
 
@@ -18,11 +18,11 @@ Data element는 테이블 필드의 모든 정보를 가진 ABAP Dictionary 오�
 T-code SE11 &gt; Data type &gt; Data element 명 입력 &gt; Create &gt; Data element 
 {% endhint %}
 
-![T-code SE11](../../.gitbook/assets/image%20%2816%29.png)
+![T-code SE11](../../.gitbook/assets/image%20%2826%29.png)
 
-![Check Data element](../../.gitbook/assets/image%20%288%29.png)
+![Check Data element](../../.gitbook/assets/image%20%2817%29.png)
 
-![Data element &amp;gt; Data type](../../.gitbook/assets/image%20%283%29.png)
+![Data element &amp;gt; Data type](../../.gitbook/assets/image%20%286%29.png)
 
 ### Data type 설정
 
@@ -61,18 +61,14 @@ Domain은 ABAP Dictionary에 독립적으로 존재하는 Repository object로�
 | CLNT | Client | 3 | C\(3\) |
 | LANG | Language | internal 1, external 2 | C\(1\) |
 
-### 
-
 ### Field label 설정
 
-![Data element &amp;gt; Field label](../../.gitbook/assets/image%20%2827%29.png)
+![Data element &amp;gt; Field label](../../.gitbook/assets/image%20%2840%29.png)
 
 Short, Medium, Long 필드 라벨은 스크린 필드의 텍스트를 지정할 때 사용된다.  
 Heading 필드 라벨은 List 프로그램의 Header row에 조회된다. 
 
-
-
 ### Search Help & Parameter ID
 
-해당 내용은 이후에 학
+해당 내용은 이후에 학습
 

@@ -10,6 +10,7 @@
   * [Domain](abap/untitled/domain.md)
   * [Data element](abap/untitled/data-element.md)
   * [Table](abap/untitled/untitled.md)
+  * [Table - Technical setting](abap/untitled/table-technical-setting.md)
 
 ## Python
 
