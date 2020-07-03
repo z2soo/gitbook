@@ -8,7 +8,7 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 
 Domain은 필드의 기술적인 속성을 정의한다. 이는 ABAP Dictionary 상에서 참조하는 것이 없는 최소의 단위이다. Domain은 Data element에 할당되어 사용되며, Data element는 테이블 필드의 속성을 정의하기 위해 사용된다. 이러한 관계를 표현한 것이 아래 그림이며 이를 Two-level Domain Concept라고 한다. Table과 Structure는 Domain이 할당된 Data element 사용이 가능하다.  단, 같은 Domain을 참조하는 테이블 필드는 Domain이 변경되면 변경 사항을 자동을 반영한다.
 
-![&#xCD9C;&#xCC98; Easy ABAP](../../.gitbook/assets/image%20%2822%29.png)
+![&#xCD9C;&#xCC98; Easy ABAP](../../.gitbook/assets/image%20%2830%29.png)
 
 
 
@@ -20,7 +20,7 @@ T-code SE11 &gt; Domain &gt; Domain명 입력 &gt; Create
 
 ![T-code SE11](../../.gitbook/assets/image%20%282%29.png)
 
-![Domain &amp;gt; Definition](../../.gitbook/assets/image%20%287%29.png)
+![Domain &amp;gt; Definition](../../.gitbook/assets/image%20%289%29.png)
 
 ### Definition 설정
 
@@ -32,9 +32,9 @@ T-code SE11 &gt; Domain &gt; Domain명 입력 &gt; Create
 | Lowercase | 문자 타입일 경우 활성화되며, 체크시 대소문자 구별 설정 |
 | \(Conversion\) Routine | 데이터가 테이블에 저장되는 값, 조회되는 값 변경 설 |
 
-![Domain &amp;gt; Value Range &amp;gt; Single Vals](../../.gitbook/assets/image%20%2817%29.png)
+![Domain &amp;gt; Value Range &amp;gt; Single Vals](../../.gitbook/assets/image%20%2821%29.png)
 
-![Domain &amp;gt; Value Range &amp;gt; Intervals, Value Table](../../.gitbook/assets/image%20%2821%29.png)
+![Domain &amp;gt; Value Range &amp;gt; Intervals, Value Table](../../.gitbook/assets/image%20%2829%29.png)
 
 ### Value Range 설정 
 
@@ -90,13 +90,13 @@ Value Table과 Check Table은 다른 것으로 구분해야 한다.
 
 Domain 생성 중 Definition 설정에서 언급된 부분이다. Conversion Routine 설정을 통해 입력 값, 입력 값을 가지고 테이블에 저장되는 값, 저장된 값을 가지고 조회하는 값에 대한 형태를 변경할 수 있다. 즉, 실제 화면에서 보이는 데이터와 테이블에 저장된 데이터의 포맷이 다를 경우 사용한다. 아래의 그림은 이 내용을 명시적으로 보여준다. 
 
-![&#xCD9C;&#xCC98; Easy ABAP](../../.gitbook/assets/image%20%285%29.png)
+![&#xCD9C;&#xCC98; Easy ABAP](../../.gitbook/assets/image%20%286%29.png)
 
 예를 들어, Database에 저장되는 사번의 형태는 다섯 자리지만, 입력 값과 조회 값은 세 자리만을 보이는 경우 이에 대한 입출력 변환을 수행해준다. 
 
 ### Conversion Routine 설정 및 정의
 
-![Domain &amp;gt; Definition](../../.gitbook/assets/image%20%284%29.png)
+![Domain &amp;gt; Definition](../../.gitbook/assets/image%20%285%29.png)
 
 Conversion Routine 설정은 Domain &gt; Definition 설정에서 가능하며, 이것이 설정된 Domain을 참조하는 필드는 해당 Routine을 수행한다. 
 

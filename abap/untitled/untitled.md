@@ -8,7 +8,7 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 
 Table은 시스템에서 생성된 데이터를 저장하는 실제 물리적인 공간으로, T-code SE11에서 테이블을 생성하여 활성화하면 데이터베이스에 물리적인 테이블이 생성된다. 이는 2차원 행렬로 이루어져 있다. 행렬의 열은 각 이름과 속성이 있으며 이를 field 또는 column이라고 한다. 필드는 테이블 내에서 중복되지 않는 이름을 가지며, MANDT 필드는 필수적으로 존재해야 한다. 테이블의 하나 이상의 필드를 key field로 지정하고 이를 통해 테이블의 레코드들의 중복을 제거하고 관리할 수 있다. ABAP 테이블은 3 종류로 존재하며, 테이블 기본 속성은 DD02L 테이블, 테이블 필드에 대한 정보는 DD03L 테이블에 저장된다.
 
-![table &#xAD6C;&#xC131; &#xC815;&#xBCF4;](../../.gitbook/assets/image%20%2816%29.png)
+![table &#xAD6C;&#xC131; &#xC815;&#xBCF4;](../../.gitbook/assets/image%20%2820%29.png)
 
 ### Table 종류
 
@@ -87,9 +87,9 @@ WRITE 기존 비용 TO 변환 비용 CURRENCY 'KRW'.
 T-code SE11 &gt; Database table 테이블 명 입력 &gt; Create
 {% endhint %}
 
-![T-code SE11](../../.gitbook/assets/image%20%288%29.png)
+![T-code SE11](../../.gitbook/assets/image%20%2811%29.png)
 
-![short description, delivery class, data browser/table view editing](../../.gitbook/assets/image%20%2815%29.png)
+![short description, delivery class, data browser/table view editing](../../.gitbook/assets/image%20%2819%29.png)
 
 ### Short description
 
