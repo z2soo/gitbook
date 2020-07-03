@@ -36,7 +36,7 @@ Domain은 ABAP Dictionary에 독립적으로 존재하는 Repository object로�
 기본 데이터 타입인 ABAP Type 중 자주 사용되는 것을 ABAP Dictionary에서 미리 선언한 것이 Data type\(ABAP Dictionary Type, Elementary Type\)이며, 이를 가지고 직접 선언할 수도 있다.   
 이 경우 사용 가능한 종류는 다음과 같다. 
 
-| Dict.Type | Meaning | Max length | ABAP Type |
+| Dict.Type | Meaning | Max length n | ABAP Type |
 | :--- | :--- | :--- | :--- |
 | DEC | Calculation/amount field | 1-17 | P\(\(n+1\)/2\) |
 | INT1 | Single-bite integer | 3 | Internal only |
