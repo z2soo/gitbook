@@ -140,5 +140,56 @@ Buffer 설정을 하면 DB에서 직접 데이터를 조회하는 것이 아닌,
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Explanation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Single record</td>
+      <td style="text-align:left">
+        <p>Table record&#xC5D0; &#xC811;&#xADFC;&#xD55C; &#xC815;&#xBCF4;&#xB9CC;
+          Buffer&#xC5D0; &#xC800;&#xC7A5;</p>
+        <p>Buffer storage &#xACF5;&#xAC04; &#xC801;&#xAC8C; &#xD544;&#xC694;&#xD558;&#xB2E4;&#xB294;
+          &#xC7A5;&#xC810;</p>
+        <p>DB &#xC811;&#xADFC; &#xD69F;&#xC218;&#xAC00; &#xC99D;&#xAC00;&#xD55C;&#xB2E4;&#xB294;
+          &#xB2E8;&#xC810;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Generic area buffered</td>
+      <td style="text-align:left">
+        <p>&#xC120;&#xD0DD; key &#xAC12;&#xC5D0; &#xD574;&#xB2F9;&#xD558;&#xB294;
+          Table &#xBAA8;&#xB4E0; Entry&#xB97C; Buffer&#xC5D0; &#xC800;&#xC7A5;</p>
+        <p>Generic key&#xB294; Primary key &#xC77C;&#xBD80;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fully buffered</td>
+      <td style="text-align:left">
+        <p>&#xBAA8;&#xB4E0; Table row&#xAC00; Buffer&#xC5D0; &#xC800;&#xC7A5;</p>
+        <p>&#xB370;&#xC774;&#xD130;&#xAC00; &#xC801;&#xACE0; &#xC790;&#xC8FC; &#xC77D;&#xD788;&#xBA70;
+          &#xB370;&#xC774;&#xD130;&#xAC00; &#xCD94;&#xAC00;&#xB418;&#xB294; &#xD69F;&#xC218;&#xAC00;
+          &#xC801;&#xC740; &#xD14C;&#xC774;&#xBE14;&#xC5D0; &#xC0AC;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
+### Buffering Synchronize
+
+대부분의 SAP 운영 환경은 여러 대의 Application server가 동작하고 있으며, 각 Application은 각자의 SAP Table Buffer, Local Buffer를 가진다. 즉, 우리가 운영 서버로 로그인 할 때마다 같은 서버가 아닌 여러 서버 중 하나로 접속하게 된다. 
+
+Synchronized Table은 Local Buffer에서 데이터 변경이 발생하면 해당 정보를 저장하는 테이블이다. 매 1~2분 마다 Server의 Local Buffer는 Synchronization Table의 데이터를 참조하여 동기화를 수행한다. 만약 동기화 이전에 데이터가 변경되면 Server 간 다른 데이터가 존재하는 문제가 발생한다. 따라서 Transaction이 자주 발생하는 Table에 Buffer를 설정하면 데이터 왜곡이 발생할 수 있음을 유의해야 한다. 
+
+버퍼링이 설정된 Table에서 Local Buffer를 사용하지 않고 DB Table에서 데이터를 읽어오려면 다음 옵션을 사용한다.
+
+```sql
+# BYPASSING BUFFER
+SELECT * FROM 테이블명 INTO 스트럭쳐명 BYPASSING BUFFER
+         WHERE 조건.
+```
 
