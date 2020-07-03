@@ -22,7 +22,7 @@ T-code SE11 &gt; Database table 테이블 명 입력 &gt; Create
 
 ![Domain &amp;gt; Definition](../../.gitbook/assets/image%20%285%29.png)
 
-### Definition 설
+### Definition 설정
 
 | Option | Explanation |
 | :--- | :--- |
@@ -112,8 +112,6 @@ CONVERSION_EXIT_5자리이름_OUTPUT
 CONVERSION_EXIT_ALPHA_INPUT
 CONVERSION_EXIT_ALPHA_INPUT
 ```
-
-
 
 입력값에 대한 data type과 길이를 정한다. 숫자 타입\(DEC, FLTP, QUAN, CURR\) 경우 소수 자릿수\(Decimal places\)를 지정하고, Sign 옵션을 통
 
