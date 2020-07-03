@@ -58,7 +58,7 @@ Table은 시스템에서 생성된 데이터를 저장하는 실제 물리적인
 
 ## 2. Table Field
 
-### Field 속성 정
+### Field 속성 정의
 
 테이블 필드는 테이블 속성을 표현하는 개별 구성요소이다. 테이블 필드에는 데이터 타입, 필드 길이, 내역을 설정한다. \(Data type, Field Length, Short Text\) 필드 속성은 Data element와 Predefined type 두 방식을 통해 지정 가능하다.
 
