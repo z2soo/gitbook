@@ -4,7 +4,7 @@ description: ABAP dictionary Overview
 
 # 07. ABAP Dictionary
 
-## ABAP Dictionary란?
+## ABAP Dictionary?
 
 * T-code: SE11
 * ABAP Program 에서 사용되는 object 지칭
