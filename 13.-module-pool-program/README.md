@@ -18,7 +18,7 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 * ABAP에서 Screen을 이용하여 Flow logic에 따른 처리를 가능하게 하는 Program Type
 * 개발자 생성한 일반 스크린 사용
 
-![Type-M Program &#xC601;&#xC5ED;](../.gitbook/assets/image%20%2847%29.png)
+![Type-M Program &#xC601;&#xC5ED;](../.gitbook/assets/image%20%2849%29.png)
 
 
 
