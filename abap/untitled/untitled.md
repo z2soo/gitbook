@@ -160,5 +160,9 @@ Technical setting 부분은 중요한 부분이기 떄문에 따로 다루도록
 
 ## 4. Table 변경
 
+## 5. Table Field 속성
+
+## 6. Table data 생성 방
+
 
 
