@@ -26,7 +26,24 @@ T-code SE11 &gt; Data type &gt; Data element 명 입력 &gt; Create &gt; Data el
 
 ### Data type 설정
 
-ABAP Dictionary의 필드 속성을 정의하기 위한 Data element의 기술적 속성, Elementary Type는 두 가지 방법으로 정의될 수 있다.
+상세 내용은 아래에 기술
+
+### Field label 설정
+
+![Data element &amp;gt; Field label](../../.gitbook/assets/image%20%2840%29.png)
+
+Short, Medium, Long 필드 라벨은 스크린 필드의 텍스트를 지정할 때 사용된다.  
+Heading 필드 라벨은 List 프로그램의 Header row에 조회된다. 
+
+### Search Help & Parameter ID
+
+해당 내용은 이후에 학습
+
+
+
+## 3. Data element & Elementary type
+
+ABAP Dictionary의 필드 속성을 정의하기 위한 Data element의 기술적 속성 Elementary Type는 두 가지 방법으로 정의될 수 있다.
 
 * Domain : Domain을 입력하여 설정된 속성을 정의
 * Built-in type : 직접 Data type/Elementary type 정의
@@ -60,15 +77,4 @@ Domain은 ABAP Dictionary에 독립적으로 존재하는 Repository object로�
 | LRAW | Long byte sequence | 256-max | X\(n\) |
 | CLNT | Client | 3 | C\(3\) |
 | LANG | Language | internal 1, external 2 | C\(1\) |
-
-### Field label 설정
-
-![Data element &amp;gt; Field label](../../.gitbook/assets/image%20%2840%29.png)
-
-Short, Medium, Long 필드 라벨은 스크린 필드의 텍스트를 지정할 때 사용된다.  
-Heading 필드 라벨은 List 프로그램의 Header row에 조회된다. 
-
-### Search Help & Parameter ID
-
-해당 내용은 이후에 학습
 
