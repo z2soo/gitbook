@@ -124,11 +124,38 @@ Parameter에 대한 옵션은 다음이 존재한다.
 | Option | Occur |
 | :--- | :--- |
 | DEFAULT '기본값' | 기본값 설정 |
-| TYPE 데이터타입\(길이\) | 타입과 길이 설정REPO |
+| TYPE 데이터타입 \(숫자\) | 타입과 길이 설정 |
+| LENGTH 숫 |  |
+| DECIMALS 숫자 |  |
+| LIKE 오브젝트 |  |
+| ​MEMORY ID 메모리명 |  |
+| SEARCH HELP 서치 헬프명 |  |
+| MODIF ID 스크린 그룹 |  |
+| NO-DISPLAY |  |
+| LOWER CASE |  |
+| OBLIGATORY |  |
+| AS CHECKBOX |  |
+| RADIOBUTTON GROUP 버튼 그룹명 |  |
+| VISIBLE LENGTH 숫자 |  |
+| LIKE \(오브젝트\) |  |
+| AS LISTBOX |  |
+| USER-COMMAND uscom |  |
+| AS SEARCH PATTERN |  |
+| VALUE-REQUEST |  |
+| HELP-REQUEST |  |
 
  
 
 ### SELECT-OPTIONS
+
+하나의 값만 입력받을 수 있는 Input 필드인 PARAMETER와 달리, SELECT-OPTIONS은 2개의 필드를 통해서 조건 값\(Selection criteria\)을 입력받는다. 다음 옵션들이 존재한다. 
+
+{% hint style="warning" %}
+SELECT-OPTIONS는 항상 FOR 구문화 병행하며,   
+FOR 이후 값은 TABLES로 선언된 테이블 필드나 DATA로 선언된 변수여야만 한다.
+{% endhint %}
+
+
 
 ### SELECTION-SCREEN
 
