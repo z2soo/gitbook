@@ -4,18 +4,26 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 
 # 12. Report Program
 
-## Program Type
+## Report program
+
+Type-1에 해당하는 Report program은 실행 시, 다음과 같은 각각의 이벤트를 통해 통제되며, 이벤트 블록은 사용자의 액션에 의해 발생하는 이벤트에 의해 호출된다. 
+
+![&#xCD9C;&#xCC98; EASY ABAP : Report program flow](../.gitbook/assets/image%20%2860%29.png)
+
+
+
+## Program Type 종류 
 
 ### Type-1
 
 * Report program, Executable program, Interactive program
-* 자동으로 생성되는 Initial screen\(1000\) 사
+* 자동으로 생성되는 Initial screen\(1000\) 사용
 * Event block 단위 &gt; Initialization - Selection screen - At selection screen - Start of selection - End of selection &gt; ALV 이전의 표현방식인 Selections screen & Output list 구성
 
 ### Type-2
 
 * Include program
-* Include로 호출되는 내장형 프로그
+* Include로 호출되는 내장형 프로그램
 
 ### Type-3, Type-M
 
@@ -41,7 +49,7 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 ### Type-7
 
 * Class Pools
-* Class 구
+* Class 구성 
 * F~K는 Program attribute에서 변경 불가하며 각각의 builder에서 관리
 
 

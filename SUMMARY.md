@@ -24,6 +24,7 @@
 
 * [12. Report Program](report-program/README.md)
   * [Program 생성](report-program/untitled.md)
+  * [Program 구조 - 선언](report-program/program.md)
 * [13. Module Pool Program](13.-module-pool-program/README.md)
   * [Screen](13.-module-pool-program/untitled.md)
   * [Type-M Program 구현](13.-module-pool-program/type-m-program.md)
