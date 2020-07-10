@@ -121,30 +121,140 @@ Report program에서 SELECTION SCREEN 구문은 INCLUDE TOP에 포함하는 것�
 사용자가 값을 입력할 수 있는 Input field를 정의한다. 타입 미설정 시, CHAR 1자리 타입이 정의된다.  
 Parameter에 대한 옵션은 다음이 존재한다. 
 
-| Option | Occur |
-| :--- | :--- |
-| DEFAULT '기본값' | 기본값 설정 |
-| TYPE 데이터타입 \(숫자\) | 타입과 길이 설정 |
-| LENGTH 숫 |  |
-| DECIMALS 숫자 |  |
-| LIKE 오브젝트 |  |
-| ​MEMORY ID 메모리명 |  |
-| SEARCH HELP 서치 헬프명 |  |
-| MODIF ID 스크린 그룹 |  |
-| NO-DISPLAY |  |
-| LOWER CASE |  |
-| OBLIGATORY |  |
-| AS CHECKBOX |  |
-| RADIOBUTTON GROUP 버튼 그룹명 |  |
-| VISIBLE LENGTH 숫자 |  |
-| LIKE \(오브젝트\) |  |
-| AS LISTBOX |  |
-| USER-COMMAND uscom |  |
-| AS SEARCH PATTERN |  |
-| VALUE-REQUEST |  |
-| HELP-REQUEST |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Option</th>
+      <th style="text-align:left">Occur</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">DEFAULT &apos;&#xAE30;&#xBCF8;&#xAC12;&apos;</td>
+      <td style="text-align:left">&#xAE30;&#xBCF8;&#xAC12; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TYPE &#xB370;&#xC774;&#xD130;&#xD0C0;&#xC785; (&#xC22B;&#xC790;)</td>
+      <td
+      style="text-align:left">&#xD0C0;&#xC785;&#xACFC; &#xAE38;&#xC774; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">LENGTH &#xC22B;&#xC790;</td>
+      <td style="text-align:left">Type C, N, X, P &#xAE38;&#xC774; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">DECIMALS &#xC22B;&#xC790;</td>
+      <td style="text-align:left">&#xC18C;&#xC218;&#xC810; &#xC790;&#xB9AC;&#xC218; &#xC124;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">LIKE &#xC624;&#xBE0C;&#xC81D;&#xD2B8;</td>
+      <td style="text-align:left">&#xC624;&#xBE0C;&#xC81D;&#xD2B8;&#xC640; &#xB3D9;&#xC77C;&#xD55C; &#xD0C0;&#xC785;
+        &#xC120;&#xC5B8;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x200B;MEMORY ID &#xBA54;&#xBAA8;&#xB9AC;&#xBA85;</td>
+      <td style="text-align:left">&#xBA54;&#xBAA8;&#xB9AC; &#xD30C;&#xB77C;&#xBBF8;&#xD130; &#xD560;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SEARCH HELP &#xC11C;&#xCE58; &#xD5EC;&#xD504;&#xBA85;</td>
+      <td style="text-align:left">Search help&#xBA85; &#xC785;&#xB825;&#xC2DC; possible entry &#xC0DD;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MODIF ID &#xC2A4;&#xD06C;&#xB9B0; &#xADF8;&#xB8F9;</td>
+      <td style="text-align:left">Screen-group &#xC9C0;&#xC815;&#xD558;&#xC5EC; &#xADF8;&#xB8F9;&#xBCC4;&#xB85C;
+        &#xD654;&#xBA74; &#xC18D;&#xC131; &#xC81C;&#xC5B4;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">NO-DISPLAY</td>
+      <td style="text-align:left">&#xD654;&#xBA74;&#xC5D0; &#xBCF4;&#xC774;&#xC9C0; &#xC54A;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">LOWER CASE</td>
+      <td style="text-align:left">&#xB300;&#xC18C;&#xBB38;&#xC790; &#xAD6C;&#xBCC4; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OBLIGATORY</td>
+      <td style="text-align:left">&#xD544;&#xC218;&#xAC12; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">AS CHECKBOX</td>
+      <td style="text-align:left">&#xCCB4;&#xD06C; &#xBC15;&#xC2A4;&#xB85C; &#xD45C;&#xD604;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RADIOBUTTON GROUP &#xBC84;&#xD2BC; &#xADF8;&#xB8F9;&#xBA85;</td>
+      <td style="text-align:left">&#xB77C;&#xB514;&#xC624; &#xBC84;&#xD2BC; &#xADF8;&#xB8F9; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">VISIBLE LENGTH &#xC22B;&#xC790;</td>
+      <td style="text-align:left">&#xD544;&#xB4DC;&#xC758; &#xC77C;&#xBD80; &#xAE38;&#xC774;&#xAE4C;&#xC9C0;&#xB9CC;
+        &#xD654;&#xBA74;&#xC5D0; &#xBCF4;&#xC774;&#xAC8C; &#xC124;&#xC815;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">LIKE (&#xC624;&#xBE0C;&#xC81D;&#xD2B8;)</td>
+      <td style="text-align:left">&#xD30C;&#xB77C;&#xBBF8;&#xD130; &#xB3D9;&#xC801; &#xC120;&#xC5B8;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">AS LISTBOX</td>
+      <td style="text-align:left">ABAP dictionary &#xD544;&#xB4DC;&#xC758; input help&#xC640; &#xC5F0;&#xACB0;&#xC2DC;
+        list box&#xB85C; &#xBCF4;&#xC784;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">USER-COMMAND ucom</td>
+      <td style="text-align:left">
+        <p>&#xCCB4;&#xD06C; &#xBC15;&#xC2A4;&#xC640; &#xB77C;&#xB514;&#xB3C4; &#xBC84;&#xD2BC;&#xC5D0;&#xB9CC;
+          &#xC791;&#xC6A9;</p>
+        <p>&#xD574;&#xB2F9; &#xBC84;&#xD2BC; &#xD074;&#xB9AD;&#xC2DC; user command
+          &#xC218;&#xD589;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">AS SEARCH PATTERN</td>
+      <td style="text-align:left">LDB&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;, search help key&#xAC12;&#xC73C;&#xB85C;
+        itab &#xAD6C;&#xC131;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">VALUE-REQUEST</td>
+      <td style="text-align:left">LDB&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;, F4 VALUE HELP &#xCD94;&#xAC00;&#xD558;&#xAC8C;
+        &#xD568;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HELP-REQUEST</td>
+      <td style="text-align:left">
+        <p>VALUE-REQUEST&#xC640; &#xC720;&#xC0AC;</p>
+        <p>&#xD544;&#xB4DC; HELP &#xC0DD;&#xC131;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
- 
+```sql
+REPORT Z_012_REPORT_PROGRAM_02.
+
+DATA: L_FNAME(20) TYPE C.
+PARAMETERS: P_1 DEFAULT 'A',
+            P_2 TYPE char10,
+            P_3 type c length 3 DEFAULT '123',
+            P_4 DEFAULT '123.4567',
+            P_5 like sflight-carrid,
+            P_6 memory id scl,
+            P_7 MATCHCODE OBJECT zcarrid,
+            P_8 modif id mid,
+            P_9 NO-DISPLAY,
+            P_10 DEFAULT 'a' LOWER CASE,
+            P_11 OBLIGATORY,
+            P_12 as CHECKBOX,
+            P_13 RADIOBUTTON GROUP radio,
+            P_13_2 RADIOBUTTON GROUP radio,
+            P_14(10) VISIBLE LENGTH 3 DEFAULT '12345678',
+            P_15 like sflight-carrid Value CHECK,
+            P_16 like (l_fname),
+            p_17 like sflight-carrid as LISTBOX VISIBLE LENGTH 3,
+            p_18 as CHECKBOX USER-COMMAND abc.
+```
+
+![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589; &#xD654;&#xBA74;](../.gitbook/assets/image%20%2866%29.png)
+
+
 
 ### SELECT-OPTIONS
 
