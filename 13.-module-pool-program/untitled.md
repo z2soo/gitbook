@@ -2,7 +2,7 @@
 description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 ---
 
-# Screen
+# 수정중\_Screen
 
 ## 1. Screen
 
@@ -128,16 +128,138 @@ T-code SE80 또는 T-code SE51
 ## 5. Screen Flow Logic \(Module pool\)
 
 * 스크린이 절차적을 실행되어야 하는 부분
-* ABAP 언어와 유사하지만 다른 언어임에 유의!
+* ABAP 언어와 유사하지만 다른 언어임에 유의
 
-### Screen flow logic & ABAP 차
 
-| 구분 | Screen flow logic | ABAP |
-| :--- | :--- | :--- |
-| Data 선언 | 존재 X | 존재 O |
-| Processing 블럭 |  |  |
+
+### Processing block
+
+Processing block은 Module 기능으로 이루어지며, 이러한 측면에서 Type-M 프로그램을 Module pool program 이라고 한다. 
+
+| Processing block | Meaning |
+| :--- | :--- |
+| \(PBO\) PROCESS BEFORE OUTPUT  | 화면 초기 설정 |
+| \(PAI\) PROCESS AFTER INPUT | 사용자 액션 수행시 발생하는 이벤트 블록 |
+| \(POH\) PROCESS ON HELP-REQUEST | F1 눌렀을 때 발생하는 이벤트 블록 |
+| \(POV\) PROCSEE ON VALUE-REQUEST | F4 눌렀을 때 발생하는 이벤트 블 |
+
+
+
+### Flow logic keyword
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Keyword</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">CALL</td>
+      <td style="text-align:left">Subscreen &#xD638;&#xCD9C;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MODULE</td>
+      <td style="text-align:left">Processing Module &#xC815;&#xC758; &#xBC0F; Dialog Module &#xD638;&#xCD9C;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">FIELD ~ ON</td>
+      <td style="text-align:left">
+        <p>Screen &#xD544;&#xC5D0;&#xC11C; ABAP &#xD544;&#xB4DC;&#xB85C; &#xB370;&#xC774;&#xD130;
+          &#xBCF5;&#xC0AC;</p>
+        <p>Screen &#xD544;&#xB4DC;&#xB294; PAI &#xC218;&#xD589; &#xC804; ABAP &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC5D0;&#xC11C;
+          &#xC81C;&#xC5B4; &#xBD88;&#xAC00;&#xB2A5; &#xD558;&#xC9C0;&#xB9CC;,</p>
+        <p>FIELD &#xC120;&#xC5B8;&#xC2DC; PAI &#xC218;&#xD589;&#xD558;&#xC9C0; &#xC54A;&#xC544;&#xB3C4;
+          ABAP &#xD504;&#xB85C;&#xADF8;&#xB7A8;&#xC5D0;&#xC11C; &#xB370;&#xC774;&#xD130;
+          &#xCCB4;&#xD06C; &#xAC00;&#xB2A5;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">VALUES</td>
+      <td style="text-align:left">
+        <p>Input &#xAC12; &#xC815;&#xC758; (&#xB2E4;&#xB978; &#xAC12;&#xC774; &#xC815;&#xC758;&#xB418;&#xBA74;</p>
+        <p>Field keyword&#xC640; &#xAC19;&#xC774; &#xC0AC;&#xC6A9;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CHAIN / ENDCHAIN</td>
+      <td style="text-align:left">&#xC5EC;&#xB7EC; &#xD544;&#xB4DC;&#xB97C; &#xADF8;&#xB8F9;&#xC73C;&#xB85C;
+        &#xCC98;&#xB9AC;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">LOOP / ENDLOOP</td>
+      <td style="text-align:left">Screen&#xC5D0; &#xB300;&#xD574; &#xBC18;&#xBCF5; process &#xCC98;&#xB9AC;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MODIFY</td>
+      <td style="text-align:left">Screen table &#xBCC0;&#xACBD;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PROCESS</td>
+      <td style="text-align:left">Process &#xC774;&#xBCA4;&#xD2B8; &#xC815;&#xC758;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SELECT</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ## 6. User Action
 
+### Input field data 입력
 
+
+
+### PAI 이벤트 실행
+
+
+
+### Processing Input/Output field
+
+
+
+### F1 \(Field Help\)
+
+
+
+### F2 \(Input Help\)
+
+Category 9에서 상세하게 다뤘으니 참조하도록 한다. Input help는 3가지 방법으로 스크린에 추가 가능하다.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">How</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">ABAP Dictionary</td>
+      <td style="text-align:left">Search help&#xB97C; &#xC0DD;&#xC131;&#xD558;&#xC5EC; Table field&#xC5D0;
+        &#xD560;&#xB2F9;&#xD558;&#xACE0;,
+        <br />&#xC774;&#xB97C; &#xC0C1;&#xC18D;&#xBC1B;&#xB294; Screen field&#xB97C;
+        &#xC120;&#xC5B8;&#xD55C;&#xB2E4;.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Screen</td>
+      <td style="text-align:left">
+        <p>Screen painter&#xC5D0;&#xC11C; &#xAC1C;&#xBCC4; Screen field&#xC5D0; &#xC9C1;&#xC811;
+          &#xD560;&#xB2F9;&#xD558;&#xAC70;&#xB098;,</p>
+        <p>PAI &#xC774;&#xBCA4;&#xD2B8;&#xC5D0;&#xC11C; &#xC785;&#xB825; &#xAC12;&#xC744;
+          &#xC81C;&#xD55C;&#xD55C;&#xB2E4;.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Dialog Module</td>
+      <td style="text-align:left">F4 &#xBC84;&#xD2BC;&#xC744; &#xB204;&#xB97C; &#xB54C;,
+        <br />PROCESS ON VALUE-REQUEST &#xC5D0;&#xC11C; Dialog module&#xC744; &#xD638;&#xCD9C;&#xD558;&#xB3C4;&#xB85D;
+        &#xD55C;&#xB2E4;.</td>
+    </tr>
+  </tbody>
+</table>
 

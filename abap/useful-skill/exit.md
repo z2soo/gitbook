@@ -2,7 +2,7 @@
 description: Program 종료 및 뒤로 가기 설정
 ---
 
-# Exit
+# 작성중\_Exit
 
 ### EXIT-COMMAND
 

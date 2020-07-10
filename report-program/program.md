@@ -252,7 +252,7 @@ PARAMETERS: P_1 DEFAULT 'A',
             p_18 as CHECKBOX USER-COMMAND abc.
 ```
 
-![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589; &#xD654;&#xBA74;](../.gitbook/assets/image%20%2866%29.png)
+![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589; &#xD654;&#xBA74;](../.gitbook/assets/image%20%2867%29.png)
 
 
 
