@@ -24,6 +24,13 @@
   * [수정중\_Screen](13.-module-pool-program/untitled.md)
   * [수정중\_Type-M Program 구현](13.-module-pool-program/type-m-program.md)
 
+## Google Cloud Platform
+
+* [Cloud Platform](google-cloud-platform/cloud-platform/README.md)
+  * [Cloud Computing](google-cloud-platform/cloud-platform/cloud-computing.md)
+* [Associate Cloud Engineer](google-cloud-platform/associate-cloud-engineer/README.md)
+  * [Exam Guide](google-cloud-platform/associate-cloud-engineer/exam-guide.md)
+
 ## Python
 
 ## Machine learning
