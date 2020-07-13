@@ -14,7 +14,7 @@ T-code SE80 &gt; Create &gt; Program &gt; TOP INCL 설정
 
 ## 2. Program Attributes
 
-![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC18D;&#xC131;](../.gitbook/assets/image%20%2863%29.png)
+![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC18D;&#xC131;](../../.gitbook/assets/image%20%2863%29.png)
 
 ### Type
 

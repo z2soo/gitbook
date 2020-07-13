@@ -18,7 +18,7 @@ T-code SE80 또는 T-code SE51
 
 스크린이 조회되거나 사용자의 액션이 끝난 후, 자동으로 같은 이름을 가진 스크린 필드들과 ABAP Program의 Data object 사이에 데이터 복사가 일어난다. 이는 PAI 호출시 프로그램 내부적으로 수행되는 과정이다. 
 
-![Screen &#xC704;&#xCE58;](../.gitbook/assets/image%20%2845%29.png)
+![Screen &#xC704;&#xCE58;](../../.gitbook/assets/image%20%2845%29.png)
 
 ### Screen 구성요소
 
@@ -29,7 +29,7 @@ T-code SE80 또는 T-code SE51
 | Field attributes | 메인 스크린 필드의 데이터 타입과 길이 등을 정의하는 부분 |
 | Flow logic \(Module pool\) | User action에 따른 PAI, PBO 절차 수행 부분을 정의 |
 
-![Screen &#xAD6C;&#xC131;&#xC694;&#xC18C;](../.gitbook/assets/image%20%2855%29.png)
+![Screen &#xAD6C;&#xC131;&#xC694;&#xC18C;](../../.gitbook/assets/image%20%2855%29.png)
 
 
 
@@ -37,7 +37,7 @@ T-code SE80 또는 T-code SE51
 
 * Screen number 1000~1010 : 표준 SELECTION SCREEN, ABAP Dictionary Maintenance Screen 
 
-![Screen &amp;gt; Screen attributes](../.gitbook/assets/image%20%2853%29.png)
+![Screen &amp;gt; Screen attributes](../../.gitbook/assets/image%20%2853%29.png)
 
 ### Screen attributes 세부사항
 
@@ -110,7 +110,7 @@ T-code SE80 또는 T-code SE51
 필드에 값을 입력하거나 버튼을 클릭하는 행위가 이에 속한다.   
 이미 만들어진 tool을 사용하여 쉽게 생성할 수 있다. 
 
-![Screen &amp;gt; Layout](../.gitbook/assets/image%20%2856%29.png)
+![Screen &amp;gt; Layout](../../.gitbook/assets/image%20%2856%29.png)
 
 
 
@@ -121,7 +121,7 @@ T-code SE80 또는 T-code SE51
 * Screen field와 Program field는 동일한 필드명으로 선언되어야 함
 * 이벤트 수행시 설정 값이 OK\_CODE에 저장됨
 
-![Screen field &amp; Program field](../.gitbook/assets/image%20%2844%29.png)
+![Screen field &amp; Program field](../../.gitbook/assets/image%20%2844%29.png)
 
 
 

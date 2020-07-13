@@ -8,7 +8,7 @@ description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 
 Type-1에 해당하는 Report program은 실행 시, 다음과 같은 각각의 이벤트를 통해 통제되며, 이벤트 블록은 사용자의 액션에 의해 발생하는 이벤트에 의해 호출된다. 
 
-![&#xCD9C;&#xCC98; EASY ABAP : Report program flow](../.gitbook/assets/image%20%2860%29.png)
+![&#xCD9C;&#xCC98; EASY ABAP : Report program flow](../../.gitbook/assets/image%20%2860%29.png)
 
 
 

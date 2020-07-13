@@ -65,9 +65,9 @@ REPORT ZSTUDY_012_REPORT_PROGRAM_01 NO STANDARD PAGE HEADING.
 WRITE 'LIST HEADING TEST'.
 ```
 
-![LIST heading &#xC124;&#xC815; &#xC804;](../.gitbook/assets/image%20%2862%29.png)
+![LIST heading &#xC124;&#xC815; &#xC804;](../../.gitbook/assets/image%20%2862%29.png)
 
-![LIST heading &#xC124;&#xC815; &#xD6C4;](../.gitbook/assets/image%20%2861%29.png)
+![LIST heading &#xC124;&#xC815; &#xD6C4;](../../.gitbook/assets/image%20%2861%29.png)
 
 ### 
 
@@ -81,9 +81,9 @@ REPORT ZSTUDY_012_REPORT_PROGRAM_01 line-size 30.
 WRITE 'LIST HEADING TEST'.
 ```
 
-![Line size &#xC124;&#xC815; &#xC804;](../.gitbook/assets/image%20%2864%29.png)
+![Line size &#xC124;&#xC815; &#xC804;](../../.gitbook/assets/image%20%2864%29.png)
 
-![Line size &#xC124;&#xC815; &#xD6C4;](../.gitbook/assets/image%20%2865%29.png)
+![Line size &#xC124;&#xC815; &#xD6C4;](../../.gitbook/assets/image%20%2865%29.png)
 
 
 
@@ -252,7 +252,7 @@ PARAMETERS: P_1 DEFAULT 'A',
             p_18 as CHECKBOX USER-COMMAND abc.
 ```
 
-![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589; &#xD654;&#xBA74;](../.gitbook/assets/image%20%2867%29.png)
+![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589; &#xD654;&#xBA74;](../../.gitbook/assets/image%20%2867%29.png)
 
 
 
