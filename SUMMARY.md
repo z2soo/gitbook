@@ -34,7 +34,7 @@
 ## Project
 
 * [About Project](project/about-project/README.md)
-  * [Project 관리](project/about-project/project.md)
+  * [Project Overall](project/about-project/project.md)
 
 ## Python
 
