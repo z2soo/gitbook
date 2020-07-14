@@ -37,7 +37,7 @@ Database Management System, DBMS는 DB를 관리하며 응용 프로그램들이
 * 장점 : 데이터의 엑세스 속도가 빠르고, 데이터의 사용향을 쉽게 예측할 수 있음
 * 단점 : 상하 종속적인 관계로 구성되어 있어 초기 설정 후 변화하는 프로세스를 수용하기 쉽지 않음
 
-![https://id.wikipedia.org/wiki](../../.gitbook/assets/image%20%2880%29.png)
+![https://id.wikipedia.org/wiki](../../.gitbook/assets/image%20%2881%29.png)
 
 
 
@@ -50,7 +50,7 @@ Database Management System, DBMS는 DB를 관리하며 응용 프로그램들이
 * 장점 : HDBMS 문제점인 상하 종속 및 데이터의 중복 문제를 해결함
 * 단점 : 구성과 설계가 복잡하고, 궁극적으로 데이터의 종속성을 해결하지 못함
 
-![https://zetawiki.com/wiki  ](../../.gitbook/assets/image%20%2879%29.png)
+![https://zetawiki.com/wiki  ](../../.gitbook/assets/image%20%2880%29.png)
 
 
 
@@ -63,7 +63,7 @@ RDBMS는 가장 대표적으로 쓰이는 DBMS이다. Oracle 사의 Oracle, Micr
 * 장점 : 업무 변화에 대한 적응력이 높아 변화하는 업무에 쉽게 활용하여 유지보수가 편리고, 생산성도 향상됨
 * 단점 : 다른 DBMS 보다 더 많은 자원이 활용되어 시스템의 부하가 높음
 
-![https://id.wikipedia.org/wiki](../../.gitbook/assets/image%20%2874%29.png)
+![https://id.wikipedia.org/wiki](../../.gitbook/assets/image%20%2875%29.png)
 
 
 
@@ -76,7 +76,7 @@ RDBMS는 가장 대표적으로 쓰이는 DBMS이다. Oracle 사의 Oracle, Micr
 * 장점 : 복잡한 정보 구조의 모델링 가능
 * 단점 : 안전성 및 성능의 검정 미미
 
-![https://flearning-blog.tistory.com/13](../../.gitbook/assets/image%20%2873%29.png)
+![https://flearning-blog.tistory.com/13](../../.gitbook/assets/image%20%2874%29.png)
 
 
 
@@ -95,5 +95,5 @@ OODBMS와 ORDBMS는 객체에 대해 관점의 차이를 보인다.
 * 장점 : RDBMS의 안정성과 OODBMS의 장점 
 * 단점 : 표준화 지연으로 제품간 차이 존재 및 혼란 야기
 
-![http://cmpt843-spring2018.blogspot.com](../../.gitbook/assets/image%20%2884%29.png)
+![http://cmpt843-spring2018.blogspot.com](../../.gitbook/assets/image%20%2885%29.png)
 
