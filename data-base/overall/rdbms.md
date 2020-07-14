@@ -27,7 +27,7 @@ Relational Database Management System 즉, 관계형 데이터 베이스 관리 
 * 조인이 필요한 경우 확장성이 제약됨
 * 테이블에 가변성이 있는 데이터 저장이 어려움
 
-![https://codingcoding.tistory.com/200](../../.gitbook/assets/image%20%2874%29.png)
+![https://codingcoding.tistory.com/200](../../.gitbook/assets/image%20%2875%29.png)
 
 
 
@@ -40,7 +40,7 @@ Relational Database Management System 즉, 관계형 데이터 베이스 관리 
 
 관계형 데이터 베이스\(RDB\)를 사용하여 데이터를 저장할 때, 데이터의 공통 속성을 식별하여 열\(Col\)으로 정의하고 테이블을 생성하는 것이 가장 먼저 해야하는 과정이다. 이 때, 하나의 테이블이 아닌 여러 테이블을 만들고 각 테이블의 구조, 형식, 관계를 정의하는데 이를 스키마라고 한다. 즉, 데이터 베이스의 설계도로 이해하면 된다. 데이터 베이스마다 스키마를 만드는 언어가 각기 존재하며, 해당 스키마만 있으면 동일한 구조의 데이터 베이스를 만들 수 있다. \(데이터 백업은 아닌, 구조만 동일하다는 의미\)
 
-![https://www.lifewire.com/definition-of-a-schema-in-a-database-1019262](../../.gitbook/assets/image%20%2871%29.png)
+![https://www.lifewire.com/definition-of-a-schema-in-a-database-1019262](../../.gitbook/assets/image%20%2872%29.png)
 
 
 
@@ -68,7 +68,7 @@ SQL은 데이터 베이스 스키마 생성 및 수정, 테이블 관리, 데이
 
 다음의 경우, 학생 relation은 학번, 이름, 학과, 학년의 attribute로 이루어져 있으며, 학생 relation에서 학년 attribute가 가질 수 있는 값 즉, domain의 값은 1, 2, 3, 4 이며 이외의 값은 가질 수 없다고 해석된다. 
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 <table>
   <thead>
