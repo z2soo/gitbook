@@ -1,6 +1,6 @@
 # Create Project
 
-![https://cloud.google.com/resource-manager/docs/creating-managing-folders](../../../.gitbook/assets/image%20%28103%29.png)
+![https://cloud.google.com/resource-manager/docs/creating-managing-folders](../../../.gitbook/assets/image%20%28104%29.png)
 
 * Organization: allow companies to control project \(automatically created when use Gsweet or Cloud identities\)
 
@@ -10,11 +10,11 @@
 | Forder | o | Organize project |
 | Project | x | Contain resource |
 
-![](../../../.gitbook/assets/image%20%28102%29.png)
-
-![](../../../.gitbook/assets/image%20%28111%29.png)
+![](../../../.gitbook/assets/image%20%28103%29.png)
 
 ![](../../../.gitbook/assets/image%20%28114%29.png)
+
+![](../../../.gitbook/assets/image%20%28119%29.png)
 
 * Project name: Human friendly ID
 * Project ID: Globally unique ID used by engineers, clod SDK etc

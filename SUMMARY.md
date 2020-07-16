@@ -33,7 +33,9 @@
     * [Creating user and Assigning Roles](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/creating-user-and-assigning-roles.md)
     * [Enabling APIs](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/enabling-apis.md)
     * [Stackdriver](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/untitled.md)
-  * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled-2.md)
+  * [Managing Billing Configuration](google-cloud-platform/associate-cloud-engineer/untitled-2/README.md)
+    * [Creating billing account](google-cloud-platform/associate-cloud-engineer/untitled-2/creating-billing-account.md)
+    * [Establishing Billing Budgets and Alerts](google-cloud-platform/associate-cloud-engineer/untitled-2/establishing-billing-budgets-and-alerts.md)
   * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled.md)
   * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled-1.md)
 

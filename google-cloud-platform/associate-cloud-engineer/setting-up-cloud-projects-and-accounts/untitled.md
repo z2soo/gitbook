@@ -8,9 +8,9 @@ Uptime monitoring, performance metrics, alerting, aws monitoring etc
 
 built in solutions
 
-![](../../../.gitbook/assets/image%20%28104%29.png)
+![](../../../.gitbook/assets/image%20%28105%29.png)
 
-![](../../../.gitbook/assets/image%20%28115%29.png)
+![](../../../.gitbook/assets/image%20%28120%29.png)
 
 
 
@@ -20,7 +20,7 @@ Cloud Console 탐색 메뉴에서 **모니터링**을 클릭합니다. 이 Googl
 
 
 
-![](../../../.gitbook/assets/image%20%28117%29.png)
+![](../../../.gitbook/assets/image%20%28122%29.png)
 
 dashboard: monitor group related chart
 
