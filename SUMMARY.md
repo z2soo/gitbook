@@ -30,6 +30,7 @@
   * [Exam Guide](google-cloud-platform/associate-cloud-engineer/exam-guide.md)
   * [Setting up Cloud Projects and Accounts](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/README.md)
     * [Create Project](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/create-project.md)
+    * [Creating user and Assigning Roles](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/creating-user-and-assigning-roles.md)
 
 ## Project
 
