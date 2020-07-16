@@ -12,9 +12,9 @@
 
 ![](../../../.gitbook/assets/image%20%28102%29.png)
 
-![](../../../.gitbook/assets/image%20%28110%29.png)
+![](../../../.gitbook/assets/image%20%28111%29.png)
 
-![](../../../.gitbook/assets/image%20%28113%29.png)
+![](../../../.gitbook/assets/image%20%28114%29.png)
 
 * Project name: Human friendly ID
 * Project ID: Globally unique ID used by engineers, clod SDK etc

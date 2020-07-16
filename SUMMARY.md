@@ -32,7 +32,10 @@
     * [Create Project](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/create-project.md)
     * [Creating user and Assigning Roles](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/creating-user-and-assigning-roles.md)
     * [Enabling APIs](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/enabling-apis.md)
-    * [Untitled](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/untitled.md)
+    * [Stackdriver](google-cloud-platform/associate-cloud-engineer/setting-up-cloud-projects-and-accounts/untitled.md)
+  * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled-2.md)
+  * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled.md)
+  * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled-1.md)
 
 ## Project
 
