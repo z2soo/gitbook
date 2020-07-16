@@ -4,7 +4,7 @@
 
 IAM: Identity and Access Management
 
-![](../../../.gitbook/assets/image%20%28101%29.png)
+![](../../../.gitbook/assets/image%20%28105%29.png)
 
 add member by gmail or gsuite
 
@@ -16,9 +16,9 @@ who can do what
 
 
 
-![](../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../.gitbook/assets/image%20%28107%29.png)
 
-![](../../../.gitbook/assets/image%20%28106%29.png)
+![](../../../.gitbook/assets/image%20%28114%29.png)
 
 3 types of role
 
@@ -26,7 +26,7 @@ who can do what
 * Predefined roles: granular service-specific roles ex\) ML Engine Developer/finite permissions
 * custom roles: build roles based on permissions. very targeted role, least previlage
 
-![](../../../.gitbook/assets/image%20%28103%29.png)
+![](../../../.gitbook/assets/image%20%28108%29.png)
 
 생
 
