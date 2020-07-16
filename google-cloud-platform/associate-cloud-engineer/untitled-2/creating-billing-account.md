@@ -4,11 +4,11 @@
 
 여러 프로젝트를 하나의 billing account로 관리 가ㅡㄴㄴ
 
-![](../../../.gitbook/assets/image%20%28112%29.png)
+![](../../../.gitbook/assets/image%20%28115%29.png)
 
-![](../../../.gitbook/assets/image%20%28125%29.png)
+![](../../../.gitbook/assets/image%20%28130%29.png)
 
-![](../../../.gitbook/assets/image%20%2897%29.png)
+![](../../../.gitbook/assets/image%20%2898%29.png)
 
 1. when are we going to get billed?
 

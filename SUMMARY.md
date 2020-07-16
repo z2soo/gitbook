@@ -36,6 +36,7 @@
   * [Managing Billing Configuration](google-cloud-platform/associate-cloud-engineer/untitled-2/README.md)
     * [Creating billing account](google-cloud-platform/associate-cloud-engineer/untitled-2/creating-billing-account.md)
     * [Establishing Billing Budgets and Alerts](google-cloud-platform/associate-cloud-engineer/untitled-2/establishing-billing-budgets-and-alerts.md)
+    * [Setting up Billing Exports to Estimate Daily/Monthly Charges](google-cloud-platform/associate-cloud-engineer/untitled-2/setting-up-billing-exports-to-estimate-daily-monthly-charges.md)
   * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled.md)
   * [Untitled](google-cloud-platform/associate-cloud-engineer/untitled-1.md)
 
