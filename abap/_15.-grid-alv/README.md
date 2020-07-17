@@ -94,7 +94,15 @@ Report program에서 조회된 데이터를 엑셀로 내려받는 기능을 추
 * 인스턴스 : 어떤 클래스로부터 만들어진 객체
 {% endhint %}
 
- ???????????????????
+ 
+
+```text
+* CL_GUI_ALV_GRID 참조하는 GV_GRID 객체 참조 변수 
+DATA: GV_GRID TYPE REF TO CL_GUI_ALV_GRID.
+
+```
+
+
 
 ### ALV 사전 필요 작업
 

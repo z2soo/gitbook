@@ -21,8 +21,7 @@
   * [수정중\_Screen](abap/13.-module-pool-program/untitled.md)
   * [수정중\_Type-M Program 구현](abap/13.-module-pool-program/type-m-program.md)
 * [수정중\_15. Grid ALV](abap/_15.-grid-alv/README.md)
-  * [?SAP Container](abap/_15.-grid-alv/sap-container.md)
-  * [수정중\_Field Catalog](abap/_15.-grid-alv/_field-catalog.md)
+  * [수정중\_ALV Event](abap/_15.-grid-alv/_field-catalog.md)
 
 ## Google Cloud Platform
 
