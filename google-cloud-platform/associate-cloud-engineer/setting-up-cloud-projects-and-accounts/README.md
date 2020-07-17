@@ -1,12 +1,16 @@
 # Setting up Cloud Projects and Accounts
 
-1. project
+## Project
 
 Resource: granular building blocks for services in APIs. compute engine, cloud storage,,,
 
 services and resources are attached to project
 
-2. users&roles
+
+
+## Accounts
+
+\#\# users&roles
 
 IAM all aout who can do what with which resource
 
