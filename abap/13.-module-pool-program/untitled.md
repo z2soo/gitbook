@@ -2,7 +2,7 @@
 description: SAP에서 제공하는 교육 내용과 Easy ABAP 교재 참조
 ---
 
-# 수정중\_Screen
+# Screen
 
 ## 1. Screen
 
@@ -210,23 +210,19 @@ Processing block은 Module 기능으로 이루어지며, 이러한 측면에서 
 
 ## 6. User Action
 
-### Input field data 입력
+User action이란 말 그대로 사용자의 행위를 의미한다. 다음과 같은 다양한 방식으로 사용자는 action을 취할 수 있다.
 
+* Input Field Data 입력
+* PAI 이벤트 실행 
+* Processing Input/Output Field
+* F1 \(Field Help\)
+* F4 \(Search Help\)
 
+### Field Help
 
-### PAI 이벤트 실행
+사용자가 F1을 누르거나 Help 아이콘을 클릭하면 현재 커서가 존재하는 필드의 텍스트 도움말이 조회된다. 만약, ABAP Dictionary에 생성된 Data Element Document가 존재하면 자동 첨부되며, 추가 내용은 Useful Skill 부분을 참조하자. 
 
-
-
-### Processing Input/Output field
-
-
-
-### F1 \(Field Help\)
-
-
-
-### F2 \(Input Help\)
+### Input Help
 
 Category 9에서 상세하게 다뤘으니 참조하도록 한다. Input help는 3가지 방법으로 스크린에 추가 가능하다.
 

@@ -29,7 +29,7 @@ Type-M Program을 개발하기 위한 전체 프로세스는 크게 3가지 영�
 
 * Screen 정의
 * Screen에 대한 스크립트 추가
-* Type-M program에 대한 Transaction code 생
+* Type-M program에 대한 Transaction code 생성 
 
 
 

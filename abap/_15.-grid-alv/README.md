@@ -23,14 +23,16 @@ Report program에서 조회된 데이터를 엑셀로 내려받는 기능을 추
 
 
 
-## 2. ALV 화면 표시 방법
+## 2. ALV 종류 
+
+AVL의 종류, 즉 화면을 표현하는 방법으로는 두 가지가 존재한다.   
+이번 chapter는 ALV Grid를 활용한 화면 표현 방법을 다룰 것이며, 다음 chapter는 Function에 대해 다룬다. 
 
 <table>
   <thead>
     <tr>
       <th style="text-align:left">&#xBC29;&#xBC95;</th>
       <th style="text-align:left">&#xC124;&#xBA85;</th>
-      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
@@ -45,18 +47,6 @@ Report program에서 조회된 데이터를 엑셀로 내려받는 기능을 추
           <br
           />CL&#xB85C; &#xC2DC;&#xC791;&#xB418;&#xB294; &#xD568;&#xC218;&#xBA85;</p>
       </td>
-      <td style="text-align:left">
-        <ul>
-          <li>CL_SALV_TABLE
-            <br />CL_GUI_ALV_GRID&#xC758; &#xBCF5;&#xC7A1;&#xC131;&#xC744; &#xB2E8;&#xC21C;&#xD654;
-            <br
-            />EDIT &#xBD88;&#xAC00;</li>
-          <li>CL_SALV_HIERSEQ_TABLE
-            <br />&#xACC4;&#xCE35;&#xC801; &#xD45C;&#xD604;&#xBC29;&#xBC95;</li>
-          <li>CL_SALV_TREE
-            <br />Tree&#xD615;&#xD0DC;&#xB85C; &#xD45C;&#xD604;</li>
-        </ul>
-      </td>
     </tr>
     <tr>
       <td style="text-align:left">Functions ALV</td>
@@ -66,21 +56,6 @@ Report program에서 조회된 데이터를 엑셀로 내려받는 기능을 추
           &#xD45C;&#xD604; &#xAC00;&#xB2A5;</p>
         <p>&#xB2E8;&#xC21C;&#xD654;&#xB418;&#xC5B4; Detail &#xD45C;&#xD604; &#xBD88;&#xAC00;&#xB2A5;</p>
       </td>
-      <td style="text-align:left">
-        <ul>
-          <li>REUSE_ALV_GRID_DISPLAY
-            <br />ALV LOAD&#xD574;&#xC11C; itab&#xC744; GRID&#xD615;&#xD0DC;&#xB85C; &#xBCF4;&#xC784;</li>
-          <li>
-            <p>REUSE_ALV_LIST_DISPLAY</p>
-            <p>ALV LOAD&#xD574;&#xC11C; itab&#xC744; List&#xD615;&#xD0DC;&#xB85C; &#xBCF4;&#xC784;</p>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">SALV</td>
-      <td style="text-align:left">New ALV</td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
@@ -88,11 +63,6 @@ Report program에서 조회된 데이터를 엑셀로 내려받는 기능을 추
 
 
 ## 3. ALV GRID 컨트롤 인스턴스 
-
-{% hint style="warning" %}
-* 인스턴스화 : 클래스로부터 객체를 만드는 과정
-* 인스턴스 : 어떤 클래스로부터 만들어진 객체
-{% endhint %}
 
  
 
