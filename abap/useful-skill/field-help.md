@@ -4,7 +4,7 @@ description: 'Field Help, 즉 F1을 생성하고 변경해본다.'
 
 # Field Help
 
-## 1. Field Help 생
+## 1. Field Help 생성하기 
 
 사용자가 화면에서 F1을 누르거나 Help 아이콘을 클릭하면, 현재 커서가 존재하는 필드의 텍스트 도움말이 조회된다. ABAP Dictionary 필드의 Data element documentation이 생성되어 있다면 자동으로 첨부된다. 해당 문서를 변경 및 생성하는 경우에는 다음 과정을 거친다.
 
