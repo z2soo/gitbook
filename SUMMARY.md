@@ -48,6 +48,7 @@
 ## Python
 
 * [Machine Learning 기초](python/machine-learning.md)
+* [Tensorflow 기초](python/tensorflow.md)
 
 ## R
 
