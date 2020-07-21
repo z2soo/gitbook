@@ -47,6 +47,8 @@
 
 ## Python
 
+* [Machine Learning 기초](python/machine-learning.md)
+
 ## R
 
 ## Machine learning
