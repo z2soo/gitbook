@@ -1,5 +1,11 @@
 # Text Symbol
 
+다음 구문을 활용하여 Text Symbol을 생성할 수 있다. 
+
+{% hint style="info" %}
+Text-번호
+{% endhint %}
+
 ```sql
 SELECTION-SCREEN BEGIN OF BLOCK CON WITH FRAME TITLE TEXT-100.
 SELECT-OPTIONS: COMPANY FOR EKPO-BUKRS NO INTERVALS NO-EXTENSION OBLIGATORY,
