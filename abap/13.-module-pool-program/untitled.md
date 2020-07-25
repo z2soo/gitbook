@@ -35,8 +35,6 @@ T-code SE80 또는 T-code SE51
 
 ## 2. Screen Attributes
 
-* Screen number 1000~1010 : 표준 SELECTION SCREEN, ABAP Dictionary Maintenance Screen 
-
 ![Screen &amp;gt; Screen attributes](../../.gitbook/assets/image%20%2853%29.png)
 
 ### Screen attributes 세부사항
