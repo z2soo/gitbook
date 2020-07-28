@@ -4,7 +4,7 @@ description: '테이블의 Append, Include 기능을 사용하기 위한 유형 
 
 # Enhancement category
 
-## 1. Enhancement category error 발
+## 1. Enhancement category error 발생 
 
 테이블을 생성한 후 실행하였을 때, 다음과 같 Enhancement category error가 발생하는 경우가 있다.  이는 테이블의 append, include 기능을 사용하기 위한 유형을 지정하라는 메세지다.
 
