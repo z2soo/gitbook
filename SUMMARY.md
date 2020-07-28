@@ -5,6 +5,7 @@
 ## ABAP
 
 * [00. Useful skill](abap/useful-skill/README.md)
+  * [Enhancement category](abap/useful-skill/enhancement-category.md)
   * [작성중\_User Command](abap/useful-skill/_user-command.md)
   * [Text Symbol](abap/useful-skill/text-symbol.md)
   * [Field Help](abap/useful-skill/field-help.md)
@@ -57,5 +58,5 @@
 
 ## SAP Module - MM
 
-* [Untitled](sap-module-mm/untitled.md)
+* [실습 - 인사 프로그램 생성](sap-module-mm/untitled.md)
 
