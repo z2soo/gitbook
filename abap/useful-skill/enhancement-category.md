@@ -8,7 +8,7 @@ description: '테이블의 Append, Include 기능을 사용하기 위한 유형 
 
 테이블을 생성한 후 실행하였을 때, 다음과 같 Enhancement category error가 발생하는 경우가 있다.  이는 테이블의 append, include 기능을 사용하기 위한 유형을 지정하라는 메세지다.
 
-![Enhancement category &#xACBD;&#xACE0; &#xBA54;&#xC138;&#xC9C0; &#xC870;&#xD68C;](../../.gitbook/assets/image%20%28156%29.png)
+![Enhancement category &#xACBD;&#xACE0; &#xBA54;&#xC138;&#xC9C0; &#xC870;&#xD68C;](../../.gitbook/assets/image%20%28159%29.png)
 
 
 
@@ -20,9 +20,9 @@ description: '테이블의 Append, Include 기능을 사용하기 위한 유형 
 
 해당 에러를 해결하기 위해서는 테이블의 enhancement 유형을 선택해줘야 한다. 
 
-![&#xBA54;&#xB274; &amp;gt; Extra &amp;gt; Enhancement category](../../.gitbook/assets/image%20%28157%29.png)
+![&#xBA54;&#xB274; &amp;gt; Extra &amp;gt; Enhancement category](../../.gitbook/assets/image%20%28160%29.png)
 
-![&#xC720;&#xD615;&#xC120;&#xD0DD;](../../.gitbook/assets/image%20%28155%29.png)
+![&#xC720;&#xD615;&#xC120;&#xD0DD;](../../.gitbook/assets/image%20%28158%29.png)
 
 
 
