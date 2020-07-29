@@ -4,29 +4,30 @@
 
 ## ABAP
 
-* [00. Useful skill](abap/useful-skill/README.md)
-  * [Untitled](abap/useful-skill/untitled.md)
-  * [Enhancement category](abap/useful-skill/enhancement-category.md)
-  * [작성중\_User Command](abap/useful-skill/_user-command.md)
-  * [Text Symbol](abap/useful-skill/text-symbol.md)
-  * [Field Help](abap/useful-skill/field-help.md)
-  * [Where used list](abap/useful-skill/where-used-list.md)
-  * [작성중\_Modify screen](abap/useful-skill/modify-screen.md)
-  * [작성중\_Exit](abap/useful-skill/exit.md)
-  * [작성중\_POPUP\_TO\_CONFIRM](abap/useful-skill/_popup_to_confirm.md)
-* [07. ABAP Dictionary](abap/untitled/README.md)
-  * [Domain](abap/untitled/domain.md)
-  * [Data element](abap/untitled/data-element.md)
-  * [작성중\_Table](abap/untitled/untitled.md)
-  * [Table - Technical setting](abap/untitled/table-technical-setting.md)
-* [12. Report Program](abap/report-program/README.md)
-  * [Program 생성](abap/report-program/untitled.md)
-  * [Program 구조 - 선언](abap/report-program/program.md)
-* [13. Module Pool Program](abap/13.-module-pool-program/README.md)
-  * [Screen](abap/13.-module-pool-program/untitled.md)
-  * [수정중\_Type-M Program 구현](abap/13.-module-pool-program/type-m-program.md)
-* [수정중\_15. Grid ALV](abap/_15.-grid-alv/README.md)
-  * [수정중\_ALV Event](abap/_15.-grid-alv/_field-catalog.md)
+* [Easy ABAP](abap/easy-abap/README.md)
+  * [수정중\_15. Grid ALV](abap/easy-abap/_15.-grid-alv/README.md)
+    * [수정중\_ALV Event](abap/easy-abap/_15.-grid-alv/_field-catalog.md)
+  * [13. Module Pool Program](abap/easy-abap/13.-module-pool-program/README.md)
+    * [Screen](abap/easy-abap/13.-module-pool-program/untitled.md)
+    * [수정중\_Type-M Program 구현](abap/easy-abap/13.-module-pool-program/type-m-program.md)
+  * [12. Report Program](abap/easy-abap/report-program/README.md)
+    * [Program 생성](abap/easy-abap/report-program/untitled.md)
+    * [Program 구조 - 선언](abap/easy-abap/report-program/program.md)
+  * [07. ABAP Dictionary](abap/easy-abap/untitled/README.md)
+    * [Domain](abap/easy-abap/untitled/domain.md)
+    * [Data element](abap/easy-abap/untitled/data-element.md)
+    * [작성중\_Table](abap/easy-abap/untitled/untitled.md)
+    * [Table - Technical setting](abap/easy-abap/untitled/table-technical-setting.md)
+  * [00. Useful skill](abap/easy-abap/useful-skill/README.md)
+    * [Untitled](abap/easy-abap/useful-skill/untitled.md)
+    * [Enhancement category](abap/easy-abap/useful-skill/enhancement-category.md)
+    * [작성중\_User Command](abap/easy-abap/useful-skill/_user-command.md)
+    * [Text Symbol](abap/easy-abap/useful-skill/text-symbol.md)
+    * [Field Help](abap/easy-abap/useful-skill/field-help.md)
+    * [Where used list](abap/easy-abap/useful-skill/where-used-list.md)
+    * [작성중\_Modify screen](abap/easy-abap/useful-skill/modify-screen.md)
+    * [작성중\_Exit](abap/easy-abap/useful-skill/exit.md)
+    * [작성중\_POPUP\_TO\_CONFIRM](abap/easy-abap/useful-skill/_popup_to_confirm.md)
 
 ## Google Cloud Platform
 
@@ -59,5 +60,7 @@
 
 ## SAP Module - MM
 
+* [Program practice](sap-module-mm/program-practice/README.md)
+  * [Untitled](sap-module-mm/program-practice/untitled.md)
 * [실습 - 인사 프로그램 생성](sap-module-mm/untitled.md)
 
