@@ -29,3 +29,7 @@ MODIFY는 이중적으로 사용이되는데, 일반 db에 사용하는 modify�
 
 ![](../../../.gitbook/assets/image%20%28205%29.png)
 
+사원 코드는 변경되면 안됨. 이를 lock하는 방법은??
+
+
+
