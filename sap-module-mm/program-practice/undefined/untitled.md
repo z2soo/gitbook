@@ -175,49 +175,29 @@ GT\_ITAB에 넣어서 보여주고자 하는 데이터를 가져오는 구문을
 
 ![&#xC870;&#xD68C;&#xD654;&#xBA74;](../../../.gitbook/assets/image%20%28185%29.png)
 
+![&#xACB0;&#xACFC;&#xD654;&#xBA74;](../../../.gitbook/assets/image%20%28206%29.png)
 
+결과 화면을 보면 ALV와 스크린의 사이즈에 차이가 존재함을 확인할 수 있다. 동일한 이유로 프로젝트를 하다보면 컴퓨터, 노트북 등 화면에 따라서 스크린 & ALV 크기가 각지각색으로 보이는 경우가 있다. 이를 조정하기 위해서는 ALV와 스크린 사이즈 모두 언제나 최대로 설정해주면 된다. 
 
-![](../../../.gitbook/assets/image%20%28203%29.png)
+#### 
 
+#### Screen 사이즈 조정
 
+ALV 사이즈 이전에 Screen 사이즈를 조정해준다. 스크린 Attributes 설정 탭 중 하단의 Other Attributes 부분에서 Editing에 사이즈를 최대로 설정해준다. 
 
-
-
-
-
-
-
-
-
-
-
-도메인 텍스트 가져오???
-
-//
-
-FULL SCREEN
-
-![](../../../.gitbook/assets/image%20%28197%29.png)
-
-![](../../../.gitbook/assets/image%20%28166%29.png)
-
-EDITING 부분을 최대로 해두면 항상 FULL SCREEN이 된다. 
-
-![](../../../.gitbook/assets/image%20%28200%29.png)
-
-LAYOUT 부분도 최대로 해눈더, 
-
-//
-
-![](../../../.gitbook/assets/image%20%28194%29.png)
-
-생성된 버튼에 대한 USER COMMAND 생성
-
-//
+![Screen 100 &amp;gt; Attributes &amp;gt; Other Attributes](../../../.gitbook/assets/image%20%28203%29.png)
 
 
 
-![](../../../.gitbook/assets/image%20%28178%29.png)
+#### ALV 사이즈 조정
 
-통화키를 참조하도록 하여 기본급 SALARY를 설정: GS\_0200-WAERS
+Layout에 들어가서 ALV 사이즈 또한 최대로 지정해준다.
+
+![Screen 100 &amp;gt; Layout](../../../.gitbook/assets/image%20%28205%29.png)
+
+그 결과 다음과 같이 꽉 찬 화면으로 실행됨을 확인할 수 있다.
+
+![&#xACB0;&#xACFC; &#xD654;&#xBA74;](../../../.gitbook/assets/image%20%28204%29.png)
+
+
 
