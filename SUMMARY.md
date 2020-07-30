@@ -61,6 +61,6 @@
 ## SAP Module - MM
 
 * [Program practice](sap-module-mm/program-practice/README.md)
-  * [Untitled](sap-module-mm/program-practice/untitled.md)
-* [실습 - 인사 프로그램 생성](sap-module-mm/untitled.md)
+  * [인사 프로그램 생성](sap-module-mm/program-practice/undefined/README.md)
+    * [데이터 및 조회 스크린 생성](sap-module-mm/program-practice/undefined/untitled.md)
 
