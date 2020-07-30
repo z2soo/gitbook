@@ -62,6 +62,9 @@
 
 * [Program practice](sap-module-mm/program-practice/README.md)
   * [인사 프로그램 생성](sap-module-mm/program-practice/undefined/README.md)
-    * [데이터 및 조회 스크린 생성](sap-module-mm/program-practice/undefined/untitled.md)
-    * [Untitled](sap-module-mm/program-practice/undefined/untitled-1.md)
+    * [테이블 및 스크린 생성](sap-module-mm/program-practice/undefined/untitled.md)
+    * [조회 스크린 응용](sap-module-mm/program-practice/undefined/undefined.md)
+    * [사원 데이터 추가 기능](sap-module-mm/program-practice/undefined/undefined-2.md)
+    * [코드 정리](sap-module-mm/program-practice/undefined/undefined-1.md)
+    * [기타](sap-module-mm/program-practice/undefined/untitled-1.md)
 
