@@ -19,7 +19,6 @@
     * [작성중\_Table](abap/easy-abap/untitled/untitled.md)
     * [Table - Technical setting](abap/easy-abap/untitled/table-technical-setting.md)
   * [00. Useful skill](abap/easy-abap/useful-skill/README.md)
-    * [Untitled](abap/easy-abap/useful-skill/untitled.md)
     * [Enhancement category](abap/easy-abap/useful-skill/enhancement-category.md)
     * [작성중\_User Command](abap/easy-abap/useful-skill/_user-command.md)
     * [Text Symbol](abap/easy-abap/useful-skill/text-symbol.md)
@@ -66,5 +65,7 @@
     * [조회 스크린 응용](sap-module-mm/program-practice/undefined/undefined.md)
     * [사원 데이터 추가 기능](sap-module-mm/program-practice/undefined/undefined-2.md)
     * [코드 정리](sap-module-mm/program-practice/undefined/undefined-1.md)
+    * [오류 및 기타](sap-module-mm/program-practice/undefined/undefined-4.md)
+    * [사원 데이터 변경 기능](sap-module-mm/program-practice/undefined/undefined-3.md)
     * [기타](sap-module-mm/program-practice/undefined/untitled-1.md)
 
