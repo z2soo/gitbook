@@ -60,7 +60,7 @@
 ## SAP Module - MM
 
 * [Program practice](sap-module-mm/program-practice/README.md)
-  * [인사 프로그램 생성](sap-module-mm/program-practice/undefined/README.md)
+  * [인사 프로그램 생성.ver1](sap-module-mm/program-practice/undefined/README.md)
     * [테이블 및 스크린 생성](sap-module-mm/program-practice/undefined/untitled.md)
     * [조회 스크린 응용](sap-module-mm/program-practice/undefined/undefined.md)
     * [사원 데이터 추가 기능](sap-module-mm/program-practice/undefined/undefined-2.md)
@@ -70,4 +70,5 @@
     * [사원 데이터 퇴직 변경](sap-module-mm/program-practice/undefined/undefined-5.md)
     * [변경, 등록, 퇴직변경에 따른 INPUT 설정](sap-module-mm/program-practice/undefined/input.md)
     * [기타](sap-module-mm/program-practice/undefined/untitled-1.md)
+  * [인사프로그램 생성.ver2](sap-module-mm/program-practice/.ver2.md)
 

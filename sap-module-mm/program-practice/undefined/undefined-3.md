@@ -10,7 +10,7 @@
 
 ///////////////////////////////////////////////////
 
-![](../../../.gitbook/assets/image%20%28214%29.png)
+![](../../../.gitbook/assets/image%20%28215%29.png)
 
 ![](../../../.gitbook/assets/image%20%28212%29.png)
 
@@ -20,7 +20,7 @@
 
 MODIFY는 이중적으로 사용이되는데, 일반 db에 사용하는 modify와 인터널테이블에 사용하는 modify가 있다. db에 modify를 하면 키값이 일치하는 자료가 있으면 update, 없으면 insert가 됩니다. 그러나 인터널테이블에서는 update 역할만 하게 됩니다. 자료가 없을 경우에 insert가 되지 않습니다.인터널테이블에 자료를 modify 하실때 자료가 없다면 append \( 또는 insert\) 해줘야 합니다..
 
-![](../../../.gitbook/assets/image%20%28213%29.png)
+![](../../../.gitbook/assets/image%20%28214%29.png)
 
 보니까 생성시 생성자 아이디, 시간, 날짜를 받게 안해서 그거 설정해줌
 
