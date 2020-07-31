@@ -8,9 +8,9 @@
 
 [https://ljshappy.tistory.com/72](https://ljshappy.tistory.com/72)
 
-![](../../../.gitbook/assets/image%20%28206%29.png)
-
 ![](../../../.gitbook/assets/image%20%28207%29.png)
+
+![](../../../.gitbook/assets/image%20%28208%29.png)
 
 //
 

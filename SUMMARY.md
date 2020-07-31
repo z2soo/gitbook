@@ -67,5 +67,7 @@
     * [코드 정리](sap-module-mm/program-practice/undefined/undefined-1.md)
     * [오류 및 기타](sap-module-mm/program-practice/undefined/undefined-4.md)
     * [사원 데이터 변경 기능](sap-module-mm/program-practice/undefined/undefined-3.md)
+    * [사원 데이터 퇴직 변경](sap-module-mm/program-practice/undefined/undefined-5.md)
+    * [변경, 등록, 퇴직변경에 따른 INPUT 설정](sap-module-mm/program-practice/undefined/input.md)
     * [기타](sap-module-mm/program-practice/undefined/untitled-1.md)
 
