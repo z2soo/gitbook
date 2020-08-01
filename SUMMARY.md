@@ -61,7 +61,7 @@
 
 * [인사 프로그램 생성.ver1](sap-program-practice/undefined/README.md)
   * [테이블 및 스크린 생성](sap-program-practice/undefined/untitled.md)
-  * [스크린 응용 - 도메인 값 추가](sap-program-practice/undefined/undefined.md)
+  * [도메인 값 추가](sap-program-practice/undefined/undefined.md)
   * [사원 데이터 추가 기능](sap-program-practice/undefined/undefined-2.md)
   * [코드 정리](sap-program-practice/undefined/undefined-1.md)
   * [오류 및 기타](sap-program-practice/undefined/undefined-4.md)
