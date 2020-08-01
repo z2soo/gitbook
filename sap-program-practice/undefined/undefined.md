@@ -22,19 +22,19 @@ description: 조회 스크린에 도메인 값에 따른 range value 데이터�
 
 FULL SCREEN
 
-![](../../../.gitbook/assets/image%20%28197%29.png)
+![](../../.gitbook/assets/image%20%28197%29.png)
 
-![](../../../.gitbook/assets/image%20%28166%29.png)
+![](../../.gitbook/assets/image%20%28166%29.png)
 
 EDITING 부분을 최대로 해두면 항상 FULL SCREEN이 된다. 
 
-![](../../../.gitbook/assets/image%20%28200%29.png)
+![](../../.gitbook/assets/image%20%28200%29.png)
 
 LAYOUT 부분도 최대로 해눈더, 
 
 //
 
-![](../../../.gitbook/assets/image%20%28194%29.png)
+![](../../.gitbook/assets/image%20%28194%29.png)
 
 생성된 버튼에 대한 USER COMMAND 생성
 
@@ -42,7 +42,7 @@ LAYOUT 부분도 최대로 해눈더,
 
 
 
-![](../../../.gitbook/assets/image%20%28178%29.png)
+![](../../.gitbook/assets/image%20%28178%29.png)
 
 통화키를 참조하도록 하여 기본급 SALARY를 설정: GS\_0200-WAERS
 

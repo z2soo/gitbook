@@ -12,7 +12,7 @@ description: 9번파일
 
 200번 SCREEN에서 확인 가능 
 
-![](../../../.gitbook/assets/image%20%28203%29.png)
+![](../../.gitbook/assets/image%20%28203%29.png)
 
 
 

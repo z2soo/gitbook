@@ -57,18 +57,16 @@
 
 ## Machine learning
 
-## SAP Module - MM
+## Program practice <a id="sap-program-practice"></a>
 
-* [Program practice](sap-module-mm/program-practice/README.md)
-  * [인사 프로그램 생성.ver1](sap-module-mm/program-practice/undefined/README.md)
-    * [테이블 및 스크린 생성](sap-module-mm/program-practice/undefined/untitled.md)
-    * [조회 스크린 응용](sap-module-mm/program-practice/undefined/undefined.md)
-    * [사원 데이터 추가 기능](sap-module-mm/program-practice/undefined/undefined-2.md)
-    * [코드 정리](sap-module-mm/program-practice/undefined/undefined-1.md)
-    * [오류 및 기타](sap-module-mm/program-practice/undefined/undefined-4.md)
-    * [사원 데이터 변경 기능](sap-module-mm/program-practice/undefined/undefined-3.md)
-    * [사원 데이터 퇴직 변경](sap-module-mm/program-practice/undefined/undefined-5.md)
-    * [변경, 등록, 퇴직변경에 따른 INPUT 설정](sap-module-mm/program-practice/undefined/input.md)
-    * [기타](sap-module-mm/program-practice/undefined/untitled-1.md)
-  * [인사프로그램 생성.ver2](sap-module-mm/program-practice/.ver2.md)
+* [인사 프로그램 생성.ver1](sap-program-practice/undefined/README.md)
+  * [테이블 및 스크린 생성](sap-program-practice/undefined/untitled.md)
+  * [조회 스크린 응용](sap-program-practice/undefined/undefined.md)
+  * [사원 데이터 추가 기능](sap-program-practice/undefined/undefined-2.md)
+  * [코드 정리](sap-program-practice/undefined/undefined-1.md)
+  * [오류 및 기타](sap-program-practice/undefined/undefined-4.md)
+  * [사원 데이터 변경 기능](sap-program-practice/undefined/undefined-3.md)
+  * [사원 데이터 퇴직 변경](sap-program-practice/undefined/undefined-5.md)
+  * [변경, 등록, 퇴직변경에 따른 INPUT 설정](sap-program-practice/undefined/input.md)
+  * [기타](sap-program-practice/undefined/untitled-1.md)
 
