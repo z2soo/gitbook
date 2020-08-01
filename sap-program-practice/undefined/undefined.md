@@ -28,8 +28,6 @@ description: >-
 
 
 
-![](../../.gitbook/assets/image%20%28194%29.png)
-
 생성된 버튼에 대한 USER COMMAND 생성
 
 //
