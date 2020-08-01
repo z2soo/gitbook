@@ -1,5 +1,7 @@
 ---
-description: '조회 스크린에서 조회되는 값 중 부서, 직급, 재직구분의 도메인 값에 따른 range value 데이터를 추가해준다.'
+description: >-
+  조회 스크린에서 조회되는 값 중 부서, 직급, 재직구분의 도메인 값에 따른 range value 즉, 실제 의미하는 도메인 텍스트 데이터를
+  가져와 추가해준다.
 ---
 
 # 도메인 값 추가
@@ -12,27 +14,19 @@ description: '조회 스크린에서 조회되는 값 중 부서, 직급, 재직
 
 
 
+## 1. Domain range value 추가
+
+### 1\) Structure 선언
+
+도메인 value에 따른 text 값을 담기 위한 structure가 필요하다. 
 
 
 
 
-도메인 텍스트 가져오???
 
-//
 
-FULL SCREEN
 
-![](../../.gitbook/assets/image%20%28197%29.png)
 
-![](../../.gitbook/assets/image%20%28166%29.png)
-
-EDITING 부분을 최대로 해두면 항상 FULL SCREEN이 된다. 
-
-![](../../.gitbook/assets/image%20%28200%29.png)
-
-LAYOUT 부분도 최대로 해눈더, 
-
-//
 
 ![](../../.gitbook/assets/image%20%28194%29.png)
 
