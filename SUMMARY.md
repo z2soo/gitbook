@@ -66,3 +66,7 @@
 
 ## R
 
+## IT News
+
+* [How computer works?](it-news/how-computer-works.md)
+
