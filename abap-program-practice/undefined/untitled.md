@@ -95,7 +95,7 @@ Table 이름으로 검색하여 row를 추가해 데이터를 추가해준다. �
 
 ![TOP](../../.gitbook/assets/image%20%28192%29.png)
 
-![Selection-options](../../.gitbook/assets/image%20%28201%29.png)
+![Selection-Options](../../.gitbook/assets/image%20%28243%29.png)
 
 #### Text symbol & Selection texts 설정
 
@@ -201,9 +201,7 @@ Layout에 들어가서 ALV 사이즈 또한 최대로 지정해준다.
 
 
 
-## 3. 코드
-
-지금까지 구현한 부분에 해당하는 코드는 다음과 같다.
+## 3. 결과 및 코드
 
 ### Main Program
 

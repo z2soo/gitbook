@@ -32,7 +32,9 @@
 
 * [인사 프로그램 생성.ver1](abap-program-practice/undefined/README.md)
   * [데이터 및 스크린 생성](abap-program-practice/undefined/untitled.md)
-  * [도메인 값 추가](abap-program-practice/undefined/undefined.md)
+  * [도메인 텍스트 추가](abap-program-practice/undefined/undefined.md)
+  * [수정중\_Layout 설정](abap-program-practice/undefined/_layout.md)
+  * [버튼 및 팝업 창 생성](abap-program-practice/undefined/undefined-6.md)
   * [사원 데이터 추가 기능](abap-program-practice/undefined/undefined-2.md)
   * [코드 정리](abap-program-practice/undefined/undefined-1.md)
   * [오류 및 기타](abap-program-practice/undefined/undefined-4.md)
