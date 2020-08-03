@@ -27,16 +27,19 @@
     * [작성중\_Modify screen](abap/easy-abap/useful-skill/modify-screen.md)
     * [작성중\_Exit](abap/easy-abap/useful-skill/exit.md)
     * [작성중\_POPUP\_TO\_CONFIRM](abap/easy-abap/useful-skill/_popup_to_confirm.md)
-* [인사 프로그램 생성.ver1](abap/undefined/README.md)
-  * [데이터 및 스크린 생성](abap/undefined/untitled.md)
-  * [도메인 값 추가](abap/undefined/undefined.md)
-  * [사원 데이터 추가 기능](abap/undefined/undefined-2.md)
-  * [코드 정리](abap/undefined/undefined-1.md)
-  * [오류 및 기타](abap/undefined/undefined-4.md)
-  * [사원 데이터 변경 기능](abap/undefined/undefined-3.md)
-  * [사원 데이터 퇴직 변경](abap/undefined/undefined-5.md)
-  * [변경, 등록, 퇴직변경에 따른 INPUT 설정](abap/undefined/input.md)
-  * [기타](abap/undefined/untitled-1.md)
+
+## ABAP Program Practice
+
+* [인사 프로그램 생성.ver1](abap-program-practice/undefined/README.md)
+  * [데이터 및 스크린 생성](abap-program-practice/undefined/untitled.md)
+  * [도메인 값 추가](abap-program-practice/undefined/undefined.md)
+  * [사원 데이터 추가 기능](abap-program-practice/undefined/undefined-2.md)
+  * [코드 정리](abap-program-practice/undefined/undefined-1.md)
+  * [오류 및 기타](abap-program-practice/undefined/undefined-4.md)
+  * [사원 데이터 변경 기능](abap-program-practice/undefined/undefined-3.md)
+  * [사원 데이터 퇴직 변경](abap-program-practice/undefined/undefined-5.md)
+  * [변경, 등록, 퇴직변경에 따른 INPUT 설정](abap-program-practice/undefined/input.md)
+  * [기타](abap-program-practice/undefined/untitled-1.md)
 
 ## Google Cloud Platform
 
