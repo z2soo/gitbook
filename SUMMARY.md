@@ -74,4 +74,5 @@
 ## IT News
 
 * [How computer works?](it-news/how-computer-works.md)
+* [How web works?](it-news/how-web-works.md)
 

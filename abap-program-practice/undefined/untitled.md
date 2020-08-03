@@ -95,7 +95,7 @@ Table 이름으로 검색하여 row를 추가해 데이터를 추가해준다. �
 
 ![TOP](../../.gitbook/assets/image%20%28192%29.png)
 
-![Selection-Options](../../.gitbook/assets/image%20%28243%29.png)
+![Selection-Options](../../.gitbook/assets/image%20%28256%29.png)
 
 #### Text symbol & Selection texts 설정
 
