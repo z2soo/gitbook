@@ -8,9 +8,9 @@ description: '조회 및 관리 두 가지의 T-code를 생성하여, 조회인 
 
 ## 1. T-code 생성
 
-T-code 생성시 프로그램명과 스크린 번호를 맞춰 작성해준다. ㄹ
+T-code 생성시 프로그램명과 스크린 번호를 맞춰 작성해준다. 
 
-### 조회용 T-code 생
+### 조회용 T-code 생성 
 
 ![](../../.gitbook/assets/image%20%28280%29.png)
 
