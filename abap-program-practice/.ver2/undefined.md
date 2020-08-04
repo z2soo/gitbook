@@ -6,11 +6,11 @@ description: '상태 열을 추가하여 신호등을 넣어주고, 데이터 �
 
 TOP 부분에서 선언한 화면 출력용 GS\_DISP 구조에 STAT 이라는 열을 추가해주되, ICON-ID 타입으로 선언해준다. 
 
-![TOP &amp;gt; GS\_DISP &#xC120;&#xC5B8; &amp;gt; STAT &#xCD94;&#xAC00;](../../.gitbook/assets/image%20%28282%29.png)
+![TOP &amp;gt; GS\_DISP &#xC120;&#xC5B8; &amp;gt; STAT &#xCD94;&#xAC00;](../../.gitbook/assets/image%20%28283%29.png)
 
 Field catalog에도 STAT 열에 대한 설정을 추가해준다. 
 
-![Form &amp;gt; Field catalog STAT &#xCD94;&#xAC00;](../../.gitbook/assets/image%20%28270%29.png)
+![Form &amp;gt; Field catalog STAT &#xCD94;&#xAC00;](../../.gitbook/assets/image%20%28271%29.png)
 
 MERGE\_DATA에서 STAT열에 대한 데이터 값을 넣어준다. 데이터 값이 변경되지 않은 기본 값으로 ICON\_GREEN\_LIGHT를 설정한다. 
 
@@ -24,9 +24,9 @@ HANDLE\_DATA\_CHANGED에서 PO\_DATA\_CHANGED-&gt;MODIFY\_CELL 사용
 
 ![HANDLE\_DATA\_CHANGED](../../.gitbook/assets/image%20%28264%29.png)
 
-![&#xBCC0;&#xACBD; &#xC804; &#xCD08;&#xB85D; &#xC2E0;&#xD638;&#xB4F1;](../../.gitbook/assets/image%20%28279%29.png)
+![&#xBCC0;&#xACBD; &#xC804; &#xCD08;&#xB85D; &#xC2E0;&#xD638;&#xB4F1;](../../.gitbook/assets/image%20%28280%29.png)
 
-![&#xC7AC;&#xC9C1; &#xAD6C;&#xBD84; &#xBCC0;&#xACBD; &#xD6C4; &#xB178;&#xB780; &#xC2E0;&#xD638;&#xB4F1;](../../.gitbook/assets/image%20%28275%29.png)
+![&#xC7AC;&#xC9C1; &#xAD6C;&#xBD84; &#xBCC0;&#xACBD; &#xD6C4; &#xB178;&#xB780; &#xC2E0;&#xD638;&#xB4F1;](../../.gitbook/assets/image%20%28276%29.png)
 
 ```text
 *&---------------------------------------------------------------------*
