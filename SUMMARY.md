@@ -44,7 +44,7 @@
   * [기타](abap-program-practice/undefined/untitled-1.md)
 * [인사 프로그램 생성.ver2](abap-program-practice/.ver2/README.md)
   * [신호등 아이콘 추가](abap-program-practice/.ver2/undefined.md)
-  * [툴바 이벤트](abap-program-practice/.ver2/undefined-1.md)
+  * [툴바 버튼 및 이벤트 추가](abap-program-practice/.ver2/undefined-1.md)
 
 ## Google Cloud Platform
 
