@@ -42,6 +42,9 @@
   * [사원 데이터 퇴직 변경](abap-program-practice/undefined/undefined-5.md)
   * [변경, 등록, 퇴직변경에 따른 INPUT 설정](abap-program-practice/undefined/input.md)
   * [기타](abap-program-practice/undefined/untitled-1.md)
+* [인사 프로그램 생성.ver2](abap-program-practice/.ver2/README.md)
+  * [신호등 아이콘 추가](abap-program-practice/.ver2/undefined.md)
+  * [툴바 이벤트](abap-program-practice/.ver2/undefined-1.md)
 
 ## Google Cloud Platform
 
