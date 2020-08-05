@@ -4,57 +4,73 @@ description: >-
   구문은 BAPI Function을 사용한다.
 ---
 
-# 수정 및 저장 기능 추가
+# 수정 기능 추가
 
 ## 1. Screen status 기능 추가
 
 Screen 설정 중 SET PF-STATUS 에서 Function에 대한 아이콘과 Function code를 설정해준다. 
 
-![Screen 0100 &amp;gt; PBO &amp;gt; SET PF-STATUS](../../.gitbook/assets/image%20%28309%29.png)
+![Screen 0100 &amp;gt; PBO &amp;gt; SET PF-STATUS](../../.gitbook/assets/image%20%28316%29.png)
 
 Function code에 따른 action을 module로 작성해서 PAI에 작성해준다. 
 
-![Screen 0100 &amp;gt; PAI &amp;gt; USER\_COMMAND\_0100](../../.gitbook/assets/image%20%28287%29.png)
+![Screen 0100 &amp;gt; PAI &amp;gt; USER\_COMMAND\_0100](../../.gitbook/assets/image%20%28293%29.png)
 
 
 
-## 2. 수정 및 저장 기능
+## 2. 수정 기능 추가
 
-조회된 화면에서 수정이 가능한 데이터는 전화번호 및 생성자이다. 데이터를 수정한 후 저장 아이콘을 눌렀을 때, 저장이 되기 위해서 다음 과정을 생각해줘야 한다.
+> ALV에 조회된 화면에서 수정이 발생한 경우 신호등 색상을 노란색, 오류가 발생한 경우 빨간색으로 변경하고자 한다. ALV 데이터에서 변화가 생겼다는 정보를 담은 EVENT를 활용한다.
 
-1. 필요한 데이터 및 WA 선언 
-2. 변경 데이터 유무 체크
-3. BAPI Function 위한 데이터 구성
-4. BAPI Function 수행
-5. 성공/실패에 따른 결과를 ALV에 적용
+{% hint style="info" %}
+CL\_GUI\_ALV\_GRID 클래스의 DATA\_CHANGED 이벤트 활
+{% endhint %}
 
 
 
-### 1\) 필요한 데이터 및 WA 선언
+### 1\) Class 생성
 
-![Form &amp;gt; SAVE\_DATA](../../.gitbook/assets/image%20%28298%29.png)
+ALV GRID에서 데이터 변경이 발생하엿을 때, HANDLE\_DATA\_CHANGED method를 실행하도록 선언해준다. 
 
+![Class &amp;gt; LCL\_EVENT\_RECEIVER](../../.gitbook/assets/image%20%28286%29.png)
 
+### 2\) Method 정의
 
-### 2\) 변경 데이터 유 체크
+위에서 생성한 HANDLE\_DATA\_CHANGED 이름의 method가 발생했을 때, 실행 method를 다음과 같이 정의해준다. 
 
-변경 데이터 유무를 체크하여, 없는 경우에는 메세지를 띄우게 한다. 변경된 데이터가 있는 경우는 이후 로직을 수행하여 변경 데이터를 저장하도록 한다. 
+{% hint style="info" %}
+CL\_GUI\_ALV\_GRID 클래스의 MODIFY\_CELL 메소드 활용 
+{% endhint %}
 
-이 때, internal table GT\_DISP를 읽어서 
+CL\_GUI\_ALV\_GRID 클래스의 MODIFY\_CELL 메소드를 불러서 사용하는데, 변경 데이터에 대한 값이 클래스 형태여서 혼란을 줄 수 있다. 따라서 이를 아얘 다른 변수\(ex. LT\_CHANGED\)로 선언하고 사용해도 된다. 
 
-![Form &amp;gt; SAVE\_DATA](../../.gitbook/assets/image%20%28310%29.png)
-
-
-
-### 3\) POP\_UP\_TO\_CONFIRM
-
-POP\_UP\_TO\_CONFIRM Function을 활용해서 변경 내역에 대해 다시 한 번 는 창을 띄워본다. 
-
-![Form &amp;lt; USER\_CONFIRM](../../.gitbook/assets/image%20%28294%29.png)
+![Class &amp;gt; HANDLE\_DATA\_CHANGED](../../.gitbook/assets/image%20%28283%29.png)
 
 
 
-\*\*\*\*
+### 3\) 참조 변수 선언
+
+참조 변수는 이벤트를 참조해서 선언하고, TOP이 아닌 CLASS 선언 밑에 해준다. 
+
+![Class &amp;gt; LCL\_EVENT\_RECEIVER](../../.gitbook/assets/image%20%28279%29.png)
+
+
+
+### 4\) 객체 생성
+
+선언한 참조 변수로 객체를 생성해준다. Display ALV 이전에 해주면 되고, 깔끔한 코드 정리를 위해 PERFORM으로 묶어 정의했다. 
+
+![Screen 0100 &amp;gt; SET\_ALV\_0100](../../.gitbook/assets/image%20%28317%29.png)
+
+![SET\_ALV\_0100 &amp;gt; SET\_EVENT](../../.gitbook/assets/image%20%28304%29.png)
+
+
+
+### 5\) SET HANDLER 선언
+
+Class를 사용하기 위한 마지막으로 SET HANDLER를 선언해준다. 
+
+![SET\_ALV\_0100 &amp;gt; SET\_EVENT](../../.gitbook/assets/image%20%28282%29.png)
 
 
 
