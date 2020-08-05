@@ -50,7 +50,8 @@
   * [T-code 생성](abap-program-practice/.ver2/t-code.md)
 * [구매 내역 조회 프로그램 생성](abap-program-practice/undefined-1/README.md)
   * [조회 화면 생성](abap-program-practice/undefined-1/undefined.md)
-  * [조회 기능 추가](abap-program-practice/undefined-1/undefined-1.md)
+  * [신호등 추가](abap-program-practice/undefined-1/undefined-2.md)
+  * [수정 및 저장 기능 추가](abap-program-practice/undefined-1/undefined-1.md)
 
 ---
 

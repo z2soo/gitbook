@@ -20,17 +20,17 @@ Implementation에서 다음과 같은 perform, HANDLE\_TOOLBAR 을 작성해준�
 
 잊지 말고 EVENT 선언해주
 
-![](../../.gitbook/assets/image%20%28304%29.png)
+![](../../.gitbook/assets/image%20%28307%29.png)
 
 결과
 
 
 
-![](../../.gitbook/assets/image%20%28291%29.png)
+![](../../.gitbook/assets/image%20%28292%29.png)
 
 사원등록 누르면 ㄷㅏ음과 같이 데이터가 추가된다. 
 
-![](../../.gitbook/assets/image%20%28298%29.png)
+![](../../.gitbook/assets/image%20%28301%29.png)
 
 ## 2. 사원 등록시 설정
 

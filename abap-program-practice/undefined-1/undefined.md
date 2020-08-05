@@ -10,7 +10,7 @@ description: 추가 기능 없이 조건으로 조회하여 ALV에 결과를 뿌
 
 DB에서 구매 정보를 가지고 있는 EKKO 테이블을 참조하여 필요한 변수 및 테이블을 선언한다. 데이터 변경에 대한 오류 및 상태를 나타낼 필드를 추가하여 선언해준다.  
 
-![TOP &amp;gt; ITAB &#xC120;&#xC5B8;](../../.gitbook/assets/image%20%28307%29.png)
+![TOP &amp;gt; ITAB &#xC120;&#xC5B8;](../../.gitbook/assets/image%20%28312%29.png)
 
 
 
@@ -18,7 +18,7 @@ DB에서 구매 정보를 가지고 있는 EKKO 테이블을 참조하여 필요
 
 특정 값을 기준 혹 조건으로 EKKO를 조회하기 위해 값을 입력받도록 작성해준다. 구매 문서 번호, 구매 문서 타입, 회사 코드 세 가지 값을 입력받도록 설정했으며, Multi 값을 입력받을 수 있도록 했다. 
 
-![Selection screen](../../.gitbook/assets/image%20%28288%29.png)
+![Selection screen](../../.gitbook/assets/image%20%28289%29.png)
 
 PA\_1, PA\_2, PA\_3 대신에 보여지게 할 텍스트 또한 설정해준다. 
 
@@ -68,7 +68,7 @@ EKKO 테이블에서 데이터를 받아서 internal table에 넣어준다.
 
 ![](../../.gitbook/assets/image%20%28278%29.png)
 
-![Screen 0100 &amp;gt; PBO &amp;gt; SET\_ALV &amp;gt; SET\_FIELDCAT ](../../.gitbook/assets/image%20%28299%29.png)
+![Screen 0100 &amp;gt; PBO &amp;gt; SET\_ALV &amp;gt; SET\_FIELDCAT ](../../.gitbook/assets/image%20%28302%29.png)
 
 
 
@@ -80,7 +80,7 @@ EKKO 테이블에서 데이터를 받아서 internal table에 넣어준다.
 
 ### Screen 0100
 
-![Screen 0100](../../.gitbook/assets/image%20%28289%29.png)
+![Screen 0100](../../.gitbook/assets/image%20%28290%29.png)
 
 
 

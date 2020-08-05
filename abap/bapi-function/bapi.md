@@ -18,11 +18,11 @@ description: BAPI Funtion을 어떻게 적용하여 활용하는지 기초적인
 
 구매문서 번호 및 바꿔서 넣고자 하는 생성자 이름에 대해 다음과 같이 Parameter로 받아준다. 
 
-![Selection screen](../../.gitbook/assets/image%20%28287%29.png)
+![Selection screen](../../.gitbook/assets/image%20%28288%29.png)
 
 Text element 부분에서 다음과 같이 parameter 입력 변수 이름에 문자를 설정해준다. 
 
-![Text element](../../.gitbook/assets/image%20%28294%29.png)
+![Text element](../../.gitbook/assets/image%20%28296%29.png)
 
 
 
@@ -53,11 +53,11 @@ T-code ME23N : 구매오더 조회
 
 기존 정보를 확인한 후 프로그램 실행을 통해 정보를 입력해본다. 
 
-![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589;](../../.gitbook/assets/image%20%28295%29.png)
+![&#xD504;&#xB85C;&#xADF8;&#xB7A8; &#xC2E4;&#xD589;](../../.gitbook/assets/image%20%28297%29.png)
 
 실행 후, 다시 구매 오더 문서를 조회하니 Sales person의 정보가 바뀌었음을 확인할 수 있다.  
 
-![](../../.gitbook/assets/image%20%28303%29.png)
+![](../../.gitbook/assets/image%20%28306%29.png)
 
 
 
