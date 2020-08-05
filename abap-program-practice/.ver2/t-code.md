@@ -12,17 +12,17 @@ T-code 생성시 프로그램명과 스크린 번호를 맞춰 작성해준다.
 
 ### 조회용 T-code 생성 
 
-![](../../.gitbook/assets/image%20%28285%29.png)
+![](../../.gitbook/assets/image%20%28286%29.png)
 
-![](../../.gitbook/assets/image%20%28292%29.png)
+![](../../.gitbook/assets/image%20%28293%29.png)
 
 
 
 ### 관리용 T-code 생성 
 
-![](../../.gitbook/assets/image%20%28267%29.png)
+![](../../.gitbook/assets/image%20%28268%29.png)
 
-![](../../.gitbook/assets/image%20%28288%29.png)
+![](../../.gitbook/assets/image%20%28289%29.png)
 
 ### 
 
@@ -34,9 +34,9 @@ SET PF-STATUS 구문에 EXCLUDE 사용하여 T-code별 설정 가능
 
 Screen의 STATUS 설정에서 T-code에 따라 다른 설정이 가능하며, EXCLUDE를 사용한다. 
 
-![TOP &amp;gt; GT\_EXCLUDE &#xC120;&#xC5B8;](../../.gitbook/assets/image%20%28296%29.png)
+![TOP &amp;gt; GT\_EXCLUDE &#xC120;&#xC5B8;](../../.gitbook/assets/image%20%28297%29.png)
 
-![Screen 0100 &amp;gt; STATUS\_0100](../../.gitbook/assets/image%20%28291%29.png)
+![Screen 0100 &amp;gt; STATUS\_0100](../../.gitbook/assets/image%20%28292%29.png)
 
 
 
@@ -44,7 +44,7 @@ Screen의 STATUS 설정에서 T-code에 따라 다른 설정이 가능하며, EX
 
 ## 3. Field catalog 설정
 
-![](../../.gitbook/assets/image%20%28271%29.png)
+![](../../.gitbook/assets/image%20%28272%29.png)
 
 
 
