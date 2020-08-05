@@ -46,6 +46,7 @@
   * [신호등 아이콘 추가](abap-program-practice/.ver2/undefined.md)
   * [툴바 버튼 및 이벤트 추가](abap-program-practice/.ver2/undefined-1.md)
   * [T-code 생성](abap-program-practice/.ver2/t-code.md)
+* [BAPI 활용 기초](abap-program-practice/bapi.md)
 
 ## Google Cloud Platform
 
