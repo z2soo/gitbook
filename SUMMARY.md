@@ -29,6 +29,8 @@
     * [작성중\_POPUP\_TO\_CONFIRM](abap/easy-abap/useful-skill/_popup_to_confirm.md)
 * [BAPI Function](abap/bapi-function/README.md)
   * [BAPI\_PO\_CHANGE](abap/bapi-function/bapi.md)
+* [Etc](abap/etc/README.md)
+  * [BDC](abap/etc/bdc.md)
 
 ## ABAP Program Practice
 
