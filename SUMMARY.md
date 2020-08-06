@@ -31,6 +31,7 @@
   * [BAPI\_PO\_CHANGE](abap/bapi-function/bapi.md)
 * [Etc](abap/etc/README.md)
   * [BDC](abap/etc/bdc.md)
+  * [Message Text](abap/etc/message-text.md)
 
 ## ABAP Program Practice
 
