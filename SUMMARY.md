@@ -30,9 +30,10 @@
 * [BAPI Function](abap/bapi-function/README.md)
   * [BAPI\_PO\_CHANGE](abap/bapi-function/bapi.md)
 * [Etc](abap/etc/README.md)
+  * [CTS](abap/etc/cts.md)
   * [BDC](abap/etc/bdc.md)
   * [Message Text](abap/etc/message-text.md)
-  * [Field symbol](abap/etc/field-symbol.md)
+  * [작성중\_Field symbol](abap/etc/field-symbol.md)
 
 ## ABAP Program Practice
 

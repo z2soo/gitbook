@@ -1,2 +1,43 @@
-# Field symbol
+# 작성중\_Field symbol
+
+원래는 TABLE과 같은 형태의 STRUCTURE를 선언해주고 여기에 값을 넣어 루프를 돌린다면,
+
+```sql
+DATA: BEGIN OF LS_DATA,
+        EBELN TYPE EKKO-EBELN,
+        LIFNR TYPE EKKO-LIFNR,
+      END OF LS_DATA.
+
+DATA: LY_DATA LIKE TABLE OF LS_DATA.
+
+LOOP AT LT_DATA INTO LS_DATA.
+ENDLOOP.
+```
+
+```sql
+FIELD-SYMBOLS <FS_DATA> LIKE LS_DATA.
+LOOP AT LT_DATA ASSIGNING <FS_DATA>
+
+INTERNAL TABLE을 가공할 피요 엇이 바로 바뀜
+```
+
+```sql
+DATA: LV_DATA1 TYPE C,
+LV_DATA2 TYPE C.
+
+FIELD-SYMBOLS: <FS_DATA> TYPE C.
+
+ASSIGN LV_DATA1 TO <FS_DATA>.
+<FS_DATA> = 'A'.
+
+ASSIGN LV_DATA2 TO <FS_DATA>.
+<FS_DATA> = 'B'.
+
+* LV_FNAME에 담긴 값이 들어있는 FS_DATA를 찾음...?
+LV_FNAME = 'LV_DATA1'.
+ASSIGN (LV_FNAME) TO <FS_DATA>.
+
+```
+
+
 
