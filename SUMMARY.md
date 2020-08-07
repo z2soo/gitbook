@@ -32,6 +32,7 @@
 * [Etc](abap/etc/README.md)
   * [BDC](abap/etc/bdc.md)
   * [Message Text](abap/etc/message-text.md)
+  * [Field symbol](abap/etc/field-symbol.md)
 
 ## ABAP Program Practice
 
