@@ -10,7 +10,7 @@ description: >-
 ## 1. Transaction record 생성 - Cursor
 
 {% hint style="info" %}
-T-Code SHDB : 트랜젝션 레코딩 생성 및 조
+T-Code SHDB : 트랜젝션 레코딩 생성 및 조회 
 {% endhint %}
 
 ![SHDB](../../.gitbook/assets/image%20%28364%29.png)
@@ -65,7 +65,7 @@ BDC를 사용하여 transaction을 흘릴 때, 설정할 변수 중 입력받을
 
 ### 3\) BDC
 
-#### 기본 틀 생성 및 WA 선
+#### 기본 틀 생성 및 WA 생성 
 
 값을 입력받고 실행할 BDC에 대해 form으로 만들어준다. 
 
@@ -74,7 +74,7 @@ BDC를 사용하여 transaction을 흘릴 때, 설정할 변수 중 입력받을
 어떤 T-code를 사용하여 record를 실행할 것인지에 대한 설정이 필요하기 때문에 사용할 T-code를 불러온다.
 
 {% hint style="info" %}
-CALL TRANSACTION : 다른 T-Code 호
+CALL TRANSACTION : 다른 T-Code 호출 
 {% endhint %}
 
 기본적인 틀은 다음과 같으며, 필요한 WA, 데이터를 선언해준다. 
@@ -116,7 +116,7 @@ BDC 실행 시 다음과 같은 화면 설정을 할 수 있다.
 | 설정  | 내 |
 | :--- | :--- |
 | A | BDC 모든 화면을 띄 |
-| N | BDC 화면을 하나도 안띄움 + 에러나도 안띄 |
+| N | BDC 화면을 하나도 안띄움 + 에러나도 안띄움  |
 | E | BDC 화면을 하나도 안띄움 + 에러나면 띄움 |
 
 ![BDC &#xD654;&#xBA74; &#xC124;&#xC815;](../../.gitbook/assets/image%20%28358%29.png)
