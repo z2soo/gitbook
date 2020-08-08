@@ -10,6 +10,8 @@ description: Concept and type of cloud computing
 
 인터넷, 클라우드를 통해 서버, 스토리지, 데이터베이트, 네트워킹, 소프트웨어, 분석 등의 컴퓨팅 서비스를 제공하고 사용한 만큼 비용을 지불하는 것
 
+
+
 ### Cloud Computing 장점 
 
 * 민첩성
@@ -23,6 +25,8 @@ description: Concept and type of cloud computing
 
 클라우드 컴퓨팅은 사용한 클라우드 서비스에 대해서만 요금을 지불하기 때문에, 운영 비용을 낮추고 인프라를 보다 효율적으로 운영할 수 있으며, 비즈니스 요구 사항의 변화에 따라 규모를 조정할 수 있다는 장점이 있다. 특히 클라우드 컴퓨팅은 정확한 사용자 접속량을 모르는 게임 서버 혹은 다량의 서버, resource를 돌리는 데이터 사이언스\(머신러닝\) 분야에서 유용하게 사용된다. 
 
+
+
 ### 4차 산업혁명과의 관계
 
 * 빅데이터, 모바일, IoT로 부터 빅데이터가 축적되는 데이터 수집 플랫폼
@@ -35,7 +39,7 @@ description: Concept and type of cloud computing
 
 ## 2. Cloud computing Type
 
-### Cloud Delivery Models : 서비
+### Cloud Delivery Models : 서비스 
 
 <table>
   <thead>
@@ -91,6 +95,8 @@ description: Concept and type of cloud computing
     </tr>
   </tbody>
 </table>
+
+
 
 ### Cloud Deployment Models : 배포
 
