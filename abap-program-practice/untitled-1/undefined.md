@@ -101,7 +101,7 @@ CL\_GUI\_FRONTED\_SERVICES=&gt;FILE\_OPEN\_DIALOG : 파일 선택 창 기능
 
 ### 값 입력을 위해 TYPE 설정
 
-LT\_INTERN 생
+LT\_INTERN 생성 
 
 ![](../../.gitbook/assets/image%20%28366%29.png)
 
@@ -109,19 +109,19 @@ LT\_INTERN 생
 
 ### 함수를 통해 받은 값을 저장
 
-GS\_EXCEL 생
+GS\_EXCEL 생성 
 
 ![](../../.gitbook/assets/image%20%28352%29.png)
 
 ### 저장된 GT\_EXCEL 값을 GT\_DISP로 옮겨주고 ALV에 뿌려주기
 
-뿌려주는 부분 PERFORM으로 생
+뿌려주는 부분 PERFORM으로 생성 
 
 ![](../../.gitbook/assets/image%20%28361%29.png)
 
 ![](../../.gitbook/assets/image%20%28341%29.png)
 
-지금까지 결과
+지금까지 결과는 다음과 같다. 
 
 ![](../../.gitbook/assets/image%20%28365%29.png)
 

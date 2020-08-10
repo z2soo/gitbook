@@ -58,7 +58,6 @@
   * [수정 및 저장 기능 추가](abap-program-practice/undefined-1-1/undefined-1.md)
 * [자재 마스터 업로드 프로그램](abap-program-practice/untitled-1/README.md)
   * [엑셀 데이터 업로드 및 변환](abap-program-practice/untitled-1/undefined.md)
-  * [2.](abap-program-practice/untitled-1/2..md)
   * [Untitled](abap-program-practice/untitled-1/untitled.md)
 
 ## Google Cloud Platform
@@ -73,7 +72,7 @@
   * [Project Overall](project/about-project/project.md)
   * [Project 유의사항](project/about-project/project-1.md)
 
-## DATA BASE
+## DATABASE <a id="data-base"></a>
 
 * [Overall](data-base/overall/README.md)
   * [DBMS](data-base/overall/dbms.md)
