@@ -97,5 +97,5 @@
 ## Algorithm
 
 * [BFS DFS](algorithm/bfs-dfs/README.md)
-  * [1260: DFS와 BFS](algorithm/bfs-dfs/1260-dfs-bfs.md)
+  * [백준 1260: DFS와 BFS](algorithm/bfs-dfs/1260-dfs-bfs.md)
 
