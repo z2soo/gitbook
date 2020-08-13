@@ -59,7 +59,7 @@
 
 ## 2. 실행 화면 
 
-![](../.gitbook/assets/image%20%28402%29.png)
+![](../.gitbook/assets/image%20%28403%29.png)
 
 ## 2. 이미지 불러오기 
 

@@ -99,6 +99,7 @@
   * [백준 1260 DFS와 BFS](algorithm/bfs-dfs/1260-dfs-bfs.md)
   * [백준 2178 미로탐색](algorithm/bfs-dfs/2178.md)
   * [백준 2667 단지번호 붙이기](algorithm/bfs-dfs/2667.md)
+  * [백준 7576 토마토](algorithm/bfs-dfs/7576.md)
 
 ## JAVA SCRIPT
 
