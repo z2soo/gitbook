@@ -102,5 +102,5 @@
 
 ## JAVA SCRIPT
 
-* [Untitled](java-script/untitled.md)
+* [HTML 기초문법](java-script/untitled.md)
 
