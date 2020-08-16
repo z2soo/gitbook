@@ -4,6 +4,9 @@
 
 ## ABAP
 
+* [ABAP Study](abap/abap-study/README.md)
+  * [2주차](abap/abap-study/2.md)
+  * [Untitled](abap/abap-study/untitled.md)
 * [Easy ABAP](abap/easy-abap/README.md)
   * [수정중\_15. Grid ALV](abap/easy-abap/_15.-grid-alv/README.md)
     * [수정중\_ALV Event](abap/easy-abap/_15.-grid-alv/_field-catalog.md)
@@ -37,7 +40,6 @@
 
 ## ABAP Program Practice
 
-* [ABAP Study](abap-program-practice/abap-study.md)
 * [인사 프로그램.ver1](abap-program-practice/undefined/README.md)
   * [데이터 및 스크린 생성](abap-program-practice/undefined/untitled.md)
   * [도메인 텍스트 추가](abap-program-practice/undefined/undefined.md)
