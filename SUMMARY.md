@@ -98,6 +98,7 @@
 
 ## Algorithm
 
+* [Skill for short coding](algorithm/skill-for-short-coding.md)
 * [BFS DFS](algorithm/bfs-dfs/README.md)
   * [백준 1260 DFS와 BFS](algorithm/bfs-dfs/1260-dfs-bfs.md)
   * [백준 2178 미로탐색](algorithm/bfs-dfs/2178.md)
