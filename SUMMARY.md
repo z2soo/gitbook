@@ -116,5 +116,6 @@
 * [Input label](fiori-ui5/input-label.md)
 * [Untitled](fiori-ui5/untitled-1.md)
 * [chrom](fiori-ui5/chrom.md)
-* [tree](fiori-ui5/tree.md)
+* [20200821json data](fiori-ui5/tree.md)
+* [20200821-여러 odata](fiori-ui5/20200821-odata.md)
 
