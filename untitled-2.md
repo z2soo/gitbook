@@ -360,5 +360,5 @@ url이 xsodata로 끝나는 이 서버가 odata service를 호출하기 위한 f
 
 ![](.gitbook/assets/image%20%28571%29.png)
 
-
+data service를 이용할 수 있도록 만들어진 url, 이를 활용해서 application에 사용 
 
