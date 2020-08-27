@@ -58,27 +58,33 @@ SCP Cockpit 카테고리 중  SAP HANA/SAP ASE &gt; 데이터베이스 핫 스�
 
 
 
-### 2\) DB 권한 설정 
+### 2\) User 권한 설정 - DEV/ADMIN
 
-![](.gitbook/assets/image%20%28623%29.png)
+Cockpit 사이트로 돌아와서 개툴 SAP HANA 콕웹 기반 개발 워크벤치로 들어간다. 
 
-그 중 이번에는 관리툴 콕피트로 들어
+![SCP Cockpit &amp;gt; SAP HANA/SAP ASE ](.gitbook/assets/image%20%28623%29.png)
 
-![](.gitbook/assets/image%20%28589%29.png)
+![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58;](.gitbook/assets/image%20%28589%29.png)
 
-![](.gitbook/assets/image%20%28615%29.png)
+다음 화면 중 Security로 들어가서 권한 및 유저 설정을 해준다.   
+현재 권한 설정이 안되있기 때문에, 다른 부분으로 들어가도 페이지 오류가 뜬다.
 
-security 로 들어감
+![SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58;](.gitbook/assets/image%20%28615%29.png)
 
-![](.gitbook/assets/image%20%28559%29.png)
+![SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58; &amp;gt; Security](.gitbook/assets/image%20%28559%29.png)
 
-Admin 권한을 부여해주고자 한다. 
+이제 User에 대해 작업을 위한 권한을 부여한다. 이를 위해 우선 system 유저에 대해 Developer 및 Admin 권한을 부여해주고, 권한이 부여된 system user를 복사해서 개발을 위한 새로운 user를 생성해줄 것이다.
 
-왼쪽 user 열어보면 user&gt;system
+
+
+#### Developer Role 추가
+
+왼쪽 카테고리 중 User &gt; SYSTEM 클릭하면 Original Roles 부분에 Role 권한을 추가할 수 있는 버튼이 있다.   
+이를 눌러 developer를 검색하고 나오는 role을 모두 선택해서 더해준다. 
 
 ![](.gitbook/assets/image%20%28551%29.png)
 
-+버튼
+
 
 ![](.gitbook/assets/image%20%28593%29.png)
 
