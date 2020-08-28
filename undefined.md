@@ -2,7 +2,7 @@
 
 다음 이미지를 참조하여, 정보를 입력하고 전송 버튼을 누르면 해당 정보를 다이얼로그 메세지로 보이게끔 프로그램을 만들어 본다. 
 
-![](.gitbook/assets/image%20%28611%29.png)
+![](.gitbook/assets/image%20%28614%29.png)
 
 
 
@@ -10,7 +10,7 @@
 
 새로운 프로젝트를 생성하고 값을 입력받을 input control과 button을 입력해준다. 
 
-![](.gitbook/assets/image%20%28582%29.png)
+![](.gitbook/assets/image%20%28583%29.png)
 
 
 
