@@ -8,7 +8,7 @@ SCP Cockpit &gt; SAP HANA/SAP ASE &gt; 데이터베이스 핫 스키마 &gt; 신
 
 SCP Cockpit 카테고리 중  SAP HANA/SAP ASE &gt; 데이터베이스 핫 스키마  들어가서 신규를 눌러 새로운 database를 생성해준다. 현재 demo 계정이기 때문에 데이터베이스는 24시간만 유지된다. 
 
-![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xD56B; &#xC2A4;&#xD0A4;&#xB9C8;](.gitbook/assets/image%20%28637%29.png)
+![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xD56B; &#xC2A4;&#xD0A4;&#xB9C8;](.gitbook/assets/image%20%28644%29.png)
 
 신규 데이터베이스 및 스키마는 다음 정보로 생성한다. 이때, 비밀번호를 많이 틀리면 잠겨버리고, 까먹으면 찾을 수 없기 떄문에 유의한다. 
 
@@ -17,15 +17,15 @@ SCP Cockpit 카테고리 중  SAP HANA/SAP ASE &gt; 데이터베이스 핫 스�
 비밀번호 :  Group24cloudplatform
 {% endhint %}
 
-![ &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xD56B; &#xC2A4;&#xD0A4;&#xB9C8; &amp;gt; &#xC2E0;&#xADDC; ](.gitbook/assets/image%20%28630%29.png)
+![ &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xD56B; &#xC2A4;&#xD0A4;&#xB9C8; &amp;gt; &#xC2E0;&#xADDC; ](.gitbook/assets/image%20%28636%29.png)
 
 데이터 베이스 생성이 완료되면 다음 같은 화면이 뜬다. 
 
-![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xD56B; &#xC2A4;&#xD0A4;&#xB9C8;](.gitbook/assets/image%20%28580%29.png)
+![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4; &#xD56B; &#xC2A4;&#xD0A4;&#xB9C8;](.gitbook/assets/image%20%28585%29.png)
 
 생성한 데이터 베이스로 들어가서 확인한다. 
 
-![&#xC0DD;&#xC131; &#xC644;&#xB8CC;&#xB41C; &#xB370;&#xC774;&#xD130; &#xBCA0;&#xC774;&#xC2A4; ](.gitbook/assets/image%20%28626%29.png)
+![&#xC0DD;&#xC131; &#xC644;&#xB8CC;&#xB41C; &#xB370;&#xC774;&#xD130; &#xBCA0;&#xC774;&#xC2A4; ](.gitbook/assets/image%20%28632%29.png)
 
 
 
@@ -42,19 +42,19 @@ SCP Cockpit 카테고리 중  SAP HANA/SAP ASE &gt; 데이터베이스 핫 스�
 
 데이터 베이스에 접근하기 위해서는 권한이 부여되어야 한다. 데이터 베이스 세부사항 중 우선 관 툴 부분을 눌러 들어간다. 
 
-![&#xC0DD;&#xC131; &#xC644;&#xB8CC;&#xB41C; &#xB370;&#xC774;&#xD130; &#xBCA0;&#xC774;&#xC2A4; ](.gitbook/assets/image%20%28626%29.png)
+![&#xC0DD;&#xC131; &#xC644;&#xB8CC;&#xB41C; &#xB370;&#xC774;&#xD130; &#xBCA0;&#xC774;&#xC2A4; ](.gitbook/assets/image%20%28632%29.png)
 
-![&#xAD00;&#xB9AC;&#xD234;:  SAP HANA &#xCF55;&#xD53C;&#xD2B8; &#xD074;&#xB9AD;](.gitbook/assets/image%20%28597%29.png)
+![&#xAD00;&#xB9AC;&#xD234;:  SAP HANA &#xCF55;&#xD53C;&#xD2B8; &#xD074;&#xB9AD;](.gitbook/assets/image%20%28602%29.png)
 
 초기 자동 생성되는 시스템 관리 계정인 system으로 로그인해서 Admin 권한을 부여받은 후, 유저를 생성하거나 권한을 부여해야 데이터 베이스에 정상적으로 접근 및 권한에 따른 작업이 가능해진다. 따라서, 로그인 화면이 나오면 system과 위에서 설정한 비밀번호를 입력해서 로그인한다.    
 
-![SAP HANA &#xCF55;&#xD53C;&#xD2B8; &amp;gt; Login](.gitbook/assets/image%20%28610%29.png)
+![SAP HANA &#xCF55;&#xD53C;&#xD2B8; &amp;gt; Login](.gitbook/assets/image%20%28615%29.png)
 
  system으로 로그인 완료하면 다음 information 창과 SAP HANA Databse Administraion 화면이 나온다. 
 
-![system &#xCD08;&#xAE30; &#xB85C;&#xADF8;&#xC778; &#xC644;&#xB8CC;](.gitbook/assets/image%20%28595%29.png)
+![system &#xCD08;&#xAE30; &#xB85C;&#xADF8;&#xC778; &#xC644;&#xB8CC;](.gitbook/assets/image%20%28600%29.png)
 
-![SAP HANA Databse Administraion](.gitbook/assets/image%20%28573%29.png)
+![SAP HANA Databse Administraion](.gitbook/assets/image%20%28577%29.png)
 
 
 
@@ -62,16 +62,16 @@ SCP Cockpit 카테고리 중  SAP HANA/SAP ASE &gt; 데이터베이스 핫 스�
 
 Cockpit 사이트로 돌아와서 개툴 SAP HANA 콕웹 기반 개발 워크벤치로 들어간다. 
 
-![SCP Cockpit &amp;gt; SAP HANA/SAP ASE ](.gitbook/assets/image%20%28635%29.png)
+![SCP Cockpit &amp;gt; SAP HANA/SAP ASE ](.gitbook/assets/image%20%28641%29.png)
 
-![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58;](.gitbook/assets/image%20%28597%29.png)
+![SCP Cockpit &amp;gt; SAP HANA/SAP ASE &amp;gt; SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58;](.gitbook/assets/image%20%28602%29.png)
 
 다음 화면 중 Security로 들어가서 권한 및 유저 설정을 해준다.   
 현재 권한 설정이 안되있기 때문에, 다른 부분으로 들어가도 페이지 오류가 뜬다.
 
-![SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58;](.gitbook/assets/image%20%28625%29.png)
+![SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58;](.gitbook/assets/image%20%28631%29.png)
 
-![SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58; &amp;gt; Security](.gitbook/assets/image%20%28563%29.png)
+![SAP HANA &#xC6F9; &#xAE30;&#xBC18; &#xAC1C;&#xBC1C; &#xC6CC;&#xD06C;&#xBCA4;&#xCE58; &amp;gt; Security](.gitbook/assets/image%20%28566%29.png)
 
 이제 User에 대해 작업을 위한 권한을 부여한다. 이를 위해 우선 system 유저에 대해 Developer 및 Admin 권한을 부여해주고, 권한이 부여된 system user를 복사해서 개발을 위한 새로운 user를 생성해줄 것이다.
 
@@ -82,11 +82,11 @@ Cockpit 사이트로 돌아와서 개툴 SAP HANA 콕웹 기반 개발 워크벤
 왼쪽 카테고리 중 User &gt; SYSTEM 클릭하면 Original Roles 부분에 Role 권한을 추가할 수 있는 버튼이 있다.   
 이를 눌러 developer를 검색하고 나오는 role을 모두 선택해서 더해준다. 
 
-![](.gitbook/assets/image%20%28553%29.png)
+![](.gitbook/assets/image%20%28556%29.png)
 
 
 
-![](.gitbook/assets/image%20%28602%29.png)
+![](.gitbook/assets/image%20%28607%29.png)
 
 
 
@@ -96,35 +96,35 @@ Cockpit 사이트로 돌아와서 개툴 SAP HANA 콕웹 기반 개발 워크벤
 
 마찬가지로 admin도 모두 추가 
 
-![](.gitbook/assets/image%20%28578%29.png)
+![](.gitbook/assets/image%20%28583%29.png)
 
 저장 후 다시 돌아가서 editor 누르면 이제는 오류 안날 것
 
-![](.gitbook/assets/image%20%28623%29.png)
+![](.gitbook/assets/image%20%28629%29.png)
 
-![](.gitbook/assets/image%20%28600%29.png)
+![](.gitbook/assets/image%20%28605%29.png)
 
 
 
 ### 3\) 신규 User 생성  
 
-![](.gitbook/assets/image%20%28570%29.png)
+![](.gitbook/assets/image%20%28573%29.png)
 
-![](.gitbook/assets/image%20%28549%29.png)
+![](.gitbook/assets/image%20%28551%29.png)
 
-![](.gitbook/assets/image%20%28616%29.png)
+![](.gitbook/assets/image%20%28622%29.png)
 
 해당 비밀번호는 초기기 떄문에 로그인하ㅓ면 다시 재설정하라고 뜰 
 
-![](.gitbook/assets/image%20%28583%29.png)
+![](.gitbook/assets/image%20%28588%29.png)
 
 
 
 로그아웃해서 위에서 만든 것으로 로그인
 
-![](.gitbook/assets/image%20%28609%29.png)
+![](.gitbook/assets/image%20%28614%29.png)
 
-![](.gitbook/assets/image%20%28545%29.png)
+![](.gitbook/assets/image%20%28546%29.png)
 
 
 
@@ -141,15 +141,15 @@ DEV24 계정 비밀번호 : Group24cloudplatformdev
 새로 생성한 DEV24 계정에서 앞으로 작업을 진행한다. 항상현재 작업 중인 user가 어느 계정인지 유의한다.  
 
 
-![](.gitbook/assets/image%20%28628%29.png)
+![](.gitbook/assets/image%20%28634%29.png)
 
-![](.gitbook/assets/image%20%28554%29.png)
-
-![](.gitbook/assets/image%20%28547%29.png)
+![](.gitbook/assets/image%20%28557%29.png)
 
 ![](.gitbook/assets/image%20%28548%29.png)
 
-![](.gitbook/assets/image%20%28618%29.png)
+![](.gitbook/assets/image%20%28549%29.png)
+
+![](.gitbook/assets/image%20%28624%29.png)
 
 ```text
 create column table book(
@@ -162,11 +162,11 @@ bookId Int not NULL
 ,primary key (bookID));
 ```
 
-![](.gitbook/assets/image%20%28557%29.png)
+![](.gitbook/assets/image%20%28560%29.png)
 
-![](.gitbook/assets/image%20%28605%29.png)
+![](.gitbook/assets/image%20%28610%29.png)
 
-![](.gitbook/assets/image%20%28581%29.png)
+![](.gitbook/assets/image%20%28586%29.png)
 
 Table 하위에 Book table이 생성되고, 빨간 오류가 뜨지 않으면 정상 작동되었다.
 
@@ -176,11 +176,11 @@ open definition
 
 
 
-![](.gitbook/assets/image%20%28560%29.png)
+![](.gitbook/assets/image%20%28563%29.png)
 
 open content
 
-![](.gitbook/assets/image%20%28608%29.png)
+![](.gitbook/assets/image%20%28613%29.png)
 
 ```text
 insert into store.book values ('110',' The Great Gatsby','743273567','11',' USD','Scott Fitzgerald');
@@ -195,9 +195,9 @@ insert into store.book values ('142',' Breakfast of Champions','385334206','10',
 insert into store.book values ('143',' The Sirens of Titan','385333498','9',' USD','Kurt Vonnegut');
 ```
 
-![](.gitbook/assets/image%20%28592%29.png)
+![](.gitbook/assets/image%20%28597%29.png)
 
-![](.gitbook/assets/image%20%28624%29.png)
+![](.gitbook/assets/image%20%28630%29.png)
 
 
 
@@ -213,7 +213,7 @@ create column table customer( custId Int not NULL
 ,primary key (custID));
 ```
 
-![](.gitbook/assets/image%20%28550%29.png)
+![](.gitbook/assets/image%20%28553%29.png)
 
 값 추
 
@@ -224,7 +224,7 @@ insert into store.customer values ('102','Choi Ji Woo','F','24');
 
 ![](.gitbook/assets/image%20%28542%29.png)
 
-![](.gitbook/assets/image%20%28552%29.png)
+![](.gitbook/assets/image%20%28555%29.png)
 
 
 
@@ -240,7 +240,7 @@ insert into store.customer values ('102','Choi Ji Woo','F','24');
 
 ### 1\) package 생성 
 
-![](.gitbook/assets/image%20%28555%29.png)
+![](.gitbook/assets/image%20%28558%29.png)
 
 content &gt; 우클릭 &gt; new &gt; package
 
@@ -249,19 +249,19 @@ description: ,ypackage ODATA Test
 Responsible: mypackagte  
 original language: en
 
-![](.gitbook/assets/image%20%28607%29.png)
+![](.gitbook/assets/image%20%28612%29.png)
 
 ![](.gitbook/assets/image%20%28543%29.png)
 
 
 
-![](.gitbook/assets/image%20%28615%29.png)
+![](.gitbook/assets/image%20%28621%29.png)
 
-![](.gitbook/assets/image%20%28572%29.png)
+![](.gitbook/assets/image%20%28575%29.png)
 
-![](.gitbook/assets/image%20%28617%29.png)
+![](.gitbook/assets/image%20%28623%29.png)
 
-![](.gitbook/assets/image%20%28584%29.png)
+![](.gitbook/assets/image%20%28589%29.png)
 
 
 
@@ -275,7 +275,7 @@ Odata service를 위한 기능 파일을 두개 생성한다.
 
 ![](.gitbook/assets/image%20%28541%29.png)
 
-![](.gitbook/assets/image%20%28590%29.png)
+![](.gitbook/assets/image%20%28595%29.png)
 
 ```text
 {
@@ -285,7 +285,7 @@ Odata service를 위한 기능 파일을 두개 생성한다.
 }
 ```
 
-![](.gitbook/assets/image%20%28571%29.png)
+![](.gitbook/assets/image%20%28574%29.png)
 
 
 
@@ -299,27 +299,27 @@ Odata service를 위한 기능 파일을 두개 생성한다.
 
 만드는 파일들은 ODATA 서비스 위해 필요
 
-![](.gitbook/assets/image%20%28556%29.png)
+![](.gitbook/assets/image%20%28559%29.png)
 
-![](.gitbook/assets/image%20%28593%29.png)
+![](.gitbook/assets/image%20%28598%29.png)
 
 
 
-![](.gitbook/assets/image%20%28599%29.png)
+![](.gitbook/assets/image%20%28604%29.png)
 
 세번째 탭 &gt; + 버튼 누르면 뜨는 다음과 같은 창: runbtime 선택, store 검색해서 아까 만든 strore schema 선택
 
-![](.gitbook/assets/image%20%28587%29.png)
+![](.gitbook/assets/image%20%28592%29.png)
 
 옆에 나오는 privileges를 다음과 같이 체크 
 
-![](.gitbook/assets/image%20%28603%29.png)
+![](.gitbook/assets/image%20%28608%29.png)
 
 이번에는 다섯번째 탭에 가서 + 누르기
 
 execute, 맨 처음꺼 클릭 
 
-![](.gitbook/assets/image%20%28562%29.png)
+![](.gitbook/assets/image%20%28565%29.png)
 
 
 
@@ -331,17 +331,17 @@ execute, 맨 처음꺼 클릭
 
 다음과 같이 script 확인 가능 
 
-![](.gitbook/assets/image%20%28611%29.png)
+![](.gitbook/assets/image%20%28616%29.png)
 
 
 
 ## 5. xs odata
 
-![](.gitbook/assets/image%20%28614%29.png)
+![](.gitbook/assets/image%20%28620%29.png)
 
 
 
-![](.gitbook/assets/image%20%28622%29.png)
+![](.gitbook/assets/image%20%28628%29.png)
 
 ```text
 service {
@@ -356,7 +356,7 @@ delete forbidden;
 }
 ```
 
-![](.gitbook/assets/image%20%28579%29.png)
+![](.gitbook/assets/image%20%28584%29.png)
 
 실행시
 
@@ -364,7 +364,7 @@ url이 xsodata로 끝나는 이 서버가 odata service를 호출하기 위한 f
 
 [https://cp10024p2002339716trial.hanatrial.ondemand.com/mypackage/services.xsodata](https://cp10024p2002339716trial.hanatrial.ondemand.com/mypackage/services.xsodata)
 
-![](.gitbook/assets/image%20%28577%29.png)
+![](.gitbook/assets/image%20%28582%29.png)
 
 data service를 이용할 수 있도록 만들어진 url, 이를 활용해서 application에 사용
 
@@ -394,11 +394,11 @@ manifest.json &gt; Data Source &gt; + &gt; URL Service &gt; Create new
 
 새로 생성한 프로젝트의 manifest.json 파일의 Data Source 탭으로 가서 + 버튼을 눌러 새로 등록한다. 
 
-![STUDYPROJECT06 &amp;gt; manifest.json](.gitbook/assets/image%20%28620%29.png)
+![STUDYPROJECT06 &amp;gt; manifest.json](.gitbook/assets/image%20%28626%29.png)
 
 Service URL을 클릭하고 create a new data source를 누른다. 
 
-![manifest.json &amp;gt; Data Source &amp;gt; +](.gitbook/assets/image%20%28631%29.png)
+![manifest.json &amp;gt; Data Source &amp;gt; +](.gitbook/assets/image%20%28637%29.png)
 
 입력 창에 다음 정보를 입력한다.   
 본인의 경우 URL에 위에서 생성한 HANA OData URL로 다음 정보를 입력했다. [https://cp10024p2002339716trial.hanatrial.ondemand.com/mypackage/services.xsodata](https://cp10024p2002339716trial.hanatrial.ondemand.com/mypackage/services.xsodata)  
@@ -437,11 +437,11 @@ Service URL을 클릭하고 create a new data source를 누른다.
   </tbody>
 </table>
 
-![manifest.json &amp;gt; Data Source &amp;gt; + &amp;gt; create a new data source](.gitbook/assets/image%20%28558%29.png)
+![manifest.json &amp;gt; Data Source &amp;gt; + &amp;gt; create a new data source](.gitbook/assets/image%20%28561%29.png)
 
 입력된 URL 정보로 데이터가 연결됬는지 확인하기 위해 URI에는 /를 입력한다. 생성했던 BOOK, CUSTOMER entity가 확인되면 다음 버튼을 눌러 저장한다. 
 
-![](.gitbook/assets/image%20%28594%29.png)
+![](.gitbook/assets/image%20%28599%29.png)
 
 
 
@@ -456,11 +456,11 @@ simple form으로 위의 입력 필드를 생성하고 버튼 3개를 생성 및
 
 
 
-![](.gitbook/assets/image%20%28568%29.png)
+![](.gitbook/assets/image%20%28571%29.png)
 
 이제 create, update, delete 누르면 각각 작동하도록 만든다. 그 전에 hanadb가서 role에 대해 forbidden해둔 곳을 지워준다. 
 
-![](.gitbook/assets/image%20%28551%29.png)
+![](.gitbook/assets/image%20%28554%29.png)
 
 controller 코드 다음과 같
 
@@ -575,7 +575,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 
 
 
-![](.gitbook/assets/image%20%28569%29.png)
+![](.gitbook/assets/image%20%28572%29.png)
 
 what if I want  밑에 부분을 클릭하면 그 정보가 input필드에 자동적으로 들어가지도록?
 
@@ -587,7 +587,7 @@ what if I want  밑에 부분을 클릭하면 그 정보가 input필드에 자�
 
 table에 대한 함수를 필요로함. 따라서 table의 item press 부분에 함수를 걸어줘야  함
 
-![](.gitbook/assets/image%20%28641%29.png)
+![](.gitbook/assets/image%20%28649%29.png)
 
 ```javascript
 		rowPress: function (oEvent) {
@@ -621,7 +621,7 @@ table에 대한 함수를 필요로함. 따라서 table의 item press 부분에 
 
 read button, function 생성
 
-![](.gitbook/assets/image%20%28639%29.png)
+![](.gitbook/assets/image%20%28646%29.png)
 
 ## filter
 
@@ -663,9 +663,9 @@ demo filter 사용하는 기능 중 filter 일부만 복사해옴
 
 id 11 들어간 것 결과 여러개 ; result
 
-![](.gitbook/assets/image%20%28559%29.png)
+![](.gitbook/assets/image%20%28562%29.png)
 
-![](.gitbook/assets/image%20%28546%29.png)
+![](.gitbook/assets/image%20%28547%29.png)
 
 results\[0\]으로 일단은 처음꺼를 위에 값을 넣어주도록 코드를 적ㄹ엇음
 
@@ -673,9 +673,9 @@ results\[0\]으로 일단은 처음꺼를 위에 값을 넣어주도록 코드�
 
 COMBO BOX를 넣어 COL명으로 선택하고FILTER에 입력해서 해당 값으로 필터링라도록 설정 
 
-![](.gitbook/assets/image%20%28586%29.png)
+![](.gitbook/assets/image%20%28591%29.png)
 
-![](.gitbook/assets/image%20%28598%29.png)
+![](.gitbook/assets/image%20%28603%29.png)
 
 COMBOBOX 리스트 생성해줌: TEXT
 
@@ -722,5 +722,5 @@ COMBOBOX 리스트 생성해줌: TEXT
 		}
 ```
 
-![](.gitbook/assets/image%20%28638%29.png)
+![](.gitbook/assets/image%20%28645%29.png)
 
