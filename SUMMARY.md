@@ -33,7 +33,7 @@
 * [BAPI Function](abap/bapi-function/README.md)
   * [BAPI\_PO\_CHANGE](abap/bapi-function/bapi.md)
 * [Etc](abap/etc/README.md)
-  * [ABAP GIT](abap/etc/abap-git.md)
+  * [ABAP Git 연동](abap/etc/abap-git.md)
   * [CTS](abap/etc/cts.md)
   * [BDC](abap/etc/bdc.md)
   * [Message Text](abap/etc/message-text.md)
