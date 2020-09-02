@@ -6,21 +6,21 @@ crud 기능을 각각 따로의 function module로 생
 
 
 
-![](.gitbook/assets/image%20%28706%29.png)
-
-![](.gitbook/assets/image%20%28678%29.png)
-
-![](.gitbook/assets/image%20%28696%29.png)
-
-![](.gitbook/assets/image%20%28688%29.png)
-
-
-
-
-
-
+![](.gitbook/assets/image%20%28721%29.png)
 
 ![](.gitbook/assets/image%20%28683%29.png)
+
+![](.gitbook/assets/image%20%28707%29.png)
+
+![](.gitbook/assets/image%20%28695%29.png)
+
+
+
+
+
+
+
+![](.gitbook/assets/image%20%28689%29.png)
 
 
 
@@ -34,9 +34,9 @@ t-code segw
 
 024로 만
 
-![](.gitbook/assets/image%20%28690%29.png)
+![](.gitbook/assets/image%20%28697%29.png)
 
-![](.gitbook/assets/image%20%28682%29.png)
+![](.gitbook/assets/image%20%28688%29.png)
 
 ![](.gitbook/assets/image%20%28671%29.png)
 
@@ -46,29 +46,29 @@ entity set 이름처럼 이름 주는 것
 
 abap structure눈 위에서 만든 tavble 이름
 
-![](.gitbook/assets/image%20%28692%29.png)
+![](.gitbook/assets/image%20%28702%29.png)
 
-![](.gitbook/assets/image%20%28691%29.png)
+![](.gitbook/assets/image%20%28701%29.png)
 
-![](.gitbook/assets/image%20%28699%29.png)
+![](.gitbook/assets/image%20%28711%29.png)
 
-![](.gitbook/assets/image%20%28677%29.png)
+![](.gitbook/assets/image%20%28680%29.png)
 
-![](.gitbook/assets/image%20%28707%29.png)
+![](.gitbook/assets/image%20%28722%29.png)
 
-![](.gitbook/assets/image%20%28672%29.png)
+![](.gitbook/assets/image%20%28673%29.png)
 
 상단 register &gt; package나 local해주기 
 
-![](.gitbook/assets/image%20%28703%29.png)
+![](.gitbook/assets/image%20%28716%29.png)
 
 그러면 register 파란불 구라고 sap gate way
 
 이제 functuin mapping
 
-![](.gitbook/assets/image%20%28708%29.png)
+![](.gitbook/assets/image%20%28723%29.png)
 
-![](.gitbook/assets/image%20%28694%29.png)
+![](.gitbook/assets/image%20%28704%29.png)
 
 f4누르면 확인 가
 
@@ -82,9 +82,9 @@ data source parameter: 함수에 입력되눈
 
 
 
-![](.gitbook/assets/image%20%28701%29.png)
+![](.gitbook/assets/image%20%28714%29.png)
 
-![](.gitbook/assets/image%20%28673%29.png)
+![](.gitbook/assets/image%20%28675%29.png)
 
 마찬가지로 delete, update 또한 mapping 해줌  
 지금까지의 설명: ide에서 입력하거나 실행?하게되는 부분이 왼쪽의 entity set property이고 이 값을 odata service에 연결받아? map해서 이를 data source parameter로 mapping해주는 것data source parameter는 functino의 입력값으로 들어감
@@ -99,17 +99,17 @@ get entity, get entity set에도 함수 mapping하면되는데 read라는 부분
 이때 row 하나 추가해서 empid추가: 이곳운 위에처럼 mapping; iv로 mapping  
 
 
-![](.gitbook/assets/image%20%28685%29.png)
+![](.gitbook/assets/image%20%28691%29.png)
 
-![](.gitbook/assets/image%20%28680%29.png)
+![](.gitbook/assets/image%20%28686%29.png)
 
 나멎; 부분은 ET부분이랑 map하면 화설표가 반대로 map될 
 
-![](.gitbook/assets/image%20%28674%29.png)
+![](.gitbook/assets/image%20%28676%29.png)
 
 머마찬가리조 query부분도 해줌;zmm\_emp\_24\_get으로 mapping
 
-![](.gitbook/assets/image%20%28689%29.png)
+![](.gitbook/assets/image%20%28696%29.png)
 
 
 
@@ -117,11 +117,11 @@ gateway 해서 execute 만약 에러나면
 
 maintain 들어가서 아래로 node연결 
 
-![](.gitbook/assets/image%20%28676%29.png)
+![](.gitbook/assets/image%20%28679%29.png)
 
 ![](.gitbook/assets/image%20%28668%29.png)
 
-![](.gitbook/assets/image%20%28697%29.png)
+![](.gitbook/assets/image%20%28708%29.png)
 
 
 
@@ -129,27 +129,27 @@ sap gate way &gt; execute &gt; 200으로 정
 
 ![](.gitbook/assets/image%20%28667%29.png)
 
-![](.gitbook/assets/image%20%28679%29.png)
+![](.gitbook/assets/image%20%28684%29.png)
 
 상단 entity set &gt; 여러개 등록 ㅏ능 
 
-![](.gitbook/assets/image%20%28695%29.png)
+![](.gitbook/assets/image%20%28705%29.png)
 
 url 변경됨
 
-![](.gitbook/assets/image%20%28704%29.png)
+![](.gitbook/assets/image%20%28719%29.png)
 
 optoin우로 다양한 정보 확인가능
 
 
 
-![](.gitbook/assets/image%20%28698%29.png)
+![](.gitbook/assets/image%20%28709%29.png)
 
 //
 
 상단 method로 crud test버로 해봏 수 있
 
-![](.gitbook/assets/image%20%28684%29.png)
+![](.gitbook/assets/image%20%28690%29.png)
 
 update로 한번 해보자
 
@@ -163,7 +163,7 @@ WEB IDE에서 새로운 프로젝트 생성, ODATA 생성; 위에서 만든 푸�
 
 
 
-![](.gitbook/assets/image%20%28681%29.png)
-
 ![](.gitbook/assets/image%20%28687%29.png)
+
+![](.gitbook/assets/image%20%28694%29.png)
 
