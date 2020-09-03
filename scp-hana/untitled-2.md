@@ -174,13 +174,13 @@ Table 하위에 Book table이 생성되고, 빨간 오류가 뜨지 않으면 �
 
 open definition
 
-![](../.gitbook/assets/image%20%28752%29.png)
+![](../.gitbook/assets/image%20%28753%29.png)
 
 ![](../.gitbook/assets/image%20%28563%29.png)
 
 open content
 
-![](../.gitbook/assets/image%20%28756%29.png)
+![](../.gitbook/assets/image%20%28757%29.png)
 
 ![](../.gitbook/assets/image%20%28613%29.png)
 

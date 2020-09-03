@@ -6,7 +6,7 @@ crud 기능을 각각 따로의 function module로 생
 
 
 
-![](.gitbook/assets/image%20%28753%29.png)
+![](.gitbook/assets/image%20%28754%29.png)
 
 ![](.gitbook/assets/image%20%28689%29.png)
 
@@ -54,7 +54,7 @@ abap structure눈 위에서 만든 tavble 이름
 
 ![](.gitbook/assets/image%20%28685%29.png)
 
-![](.gitbook/assets/image%20%28757%29.png)
+![](.gitbook/assets/image%20%28758%29.png)
 
 ![](.gitbook/assets/image%20%28677%29.png)
 
@@ -66,7 +66,7 @@ abap structure눈 위에서 만든 tavble 이름
 
 이제 functuin mapping
 
-![](.gitbook/assets/image%20%28759%29.png)
+![](.gitbook/assets/image%20%28760%29.png)
 
 ![](.gitbook/assets/image%20%28723%29.png)
 
