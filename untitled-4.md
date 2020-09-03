@@ -6,11 +6,11 @@ crud 기능을 각각 따로의 function module로 생
 
 
 
-![](.gitbook/assets/image%20%28721%29.png)
+![](.gitbook/assets/image%20%28724%29.png)
 
 ![](.gitbook/assets/image%20%28683%29.png)
 
-![](.gitbook/assets/image%20%28707%29.png)
+![](.gitbook/assets/image%20%28708%29.png)
 
 ![](.gitbook/assets/image%20%28695%29.png)
 
@@ -50,25 +50,25 @@ abap structure눈 위에서 만든 tavble 이름
 
 ![](.gitbook/assets/image%20%28701%29.png)
 
-![](.gitbook/assets/image%20%28711%29.png)
+![](.gitbook/assets/image%20%28712%29.png)
 
 ![](.gitbook/assets/image%20%28680%29.png)
 
-![](.gitbook/assets/image%20%28722%29.png)
+![](.gitbook/assets/image%20%28726%29.png)
 
 ![](.gitbook/assets/image%20%28673%29.png)
 
 상단 register &gt; package나 local해주기 
 
-![](.gitbook/assets/image%20%28716%29.png)
+![](.gitbook/assets/image%20%28718%29.png)
 
 그러면 register 파란불 구라고 sap gate way
 
 이제 functuin mapping
 
-![](.gitbook/assets/image%20%28723%29.png)
+![](.gitbook/assets/image%20%28727%29.png)
 
-![](.gitbook/assets/image%20%28704%29.png)
+![](.gitbook/assets/image%20%28705%29.png)
 
 f4누르면 확인 가
 
@@ -82,7 +82,7 @@ data source parameter: 함수에 입력되눈
 
 
 
-![](.gitbook/assets/image%20%28714%29.png)
+![](.gitbook/assets/image%20%28715%29.png)
 
 ![](.gitbook/assets/image%20%28675%29.png)
 
@@ -121,7 +121,7 @@ maintain 들어가서 아래로 node연결
 
 ![](.gitbook/assets/image%20%28668%29.png)
 
-![](.gitbook/assets/image%20%28708%29.png)
+![](.gitbook/assets/image%20%28709%29.png)
 
 
 
@@ -133,17 +133,17 @@ sap gate way &gt; execute &gt; 200으로 정
 
 상단 entity set &gt; 여러개 등록 ㅏ능 
 
-![](.gitbook/assets/image%20%28705%29.png)
+![](.gitbook/assets/image%20%28706%29.png)
 
 url 변경됨
 
-![](.gitbook/assets/image%20%28719%29.png)
+![](.gitbook/assets/image%20%28721%29.png)
 
 optoin우로 다양한 정보 확인가능
 
 
 
-![](.gitbook/assets/image%20%28709%29.png)
+![](.gitbook/assets/image%20%28710%29.png)
 
 //
 

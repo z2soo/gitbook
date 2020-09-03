@@ -1,6 +1,20 @@
 # Untitled
 
-## 1. JAVA / Ecplipse 설치 
+## 1. Database 생성
+
+{% hint style="info" %}
+SCP Cockpit &gt; SAP HANA/SAP ASE &gt; 데이터베이스 핫 스키마 &gt; 신규
+{% endhint %}
+
+데이터 이관을 위한 데이터베이스를 생성해준다. 이때 중요한 것은 마지막 DP 서버 항목을 켬으로 체크해준다.
+
+![](.gitbook/assets/image%20%28728%29.png)
+
+![](.gitbook/assets/image%20%28704%29.png)
+
+
+
+## JAVA / Ecplipse 설치 
 
 해당 파일 디운로드
 
@@ -53,8 +67,6 @@ oxyen eclipse를 다운
 ![](.gitbook/assets/image%20%28663%29.png)
 
 db
-
-![](.gitbook/assets/image%20%28658%29.png)
 
 
 

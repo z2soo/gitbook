@@ -143,7 +143,7 @@ DEV24 계정 비밀번호 : Group24cloudplatformdev
 
 ![](.gitbook/assets/image%20%28634%29.png)
 
-![](.gitbook/assets/image%20%28557%29.png)
+![catalog](.gitbook/assets/image%20%28557%29.png)
 
 ![](.gitbook/assets/image%20%28548%29.png)
 
@@ -174,11 +174,13 @@ Table 하위에 Book table이 생성되고, 빨간 오류가 뜨지 않으면 �
 
 open definition
 
-
+![](.gitbook/assets/image%20%28723%29.png)
 
 ![](.gitbook/assets/image%20%28563%29.png)
 
 open content
+
+![](.gitbook/assets/image%20%28725%29.png)
 
 ![](.gitbook/assets/image%20%28613%29.png)
 
@@ -208,8 +210,12 @@ insert into store.book values ('143',' The Sirens of Titan','385333498','9',' US
 customer table도 생성
 
 ```text
-create column table customer( custId Int not NULL
-,custName varchar(100) not NULL ,gender varchar(100) not NULL ,age int not NULL
+drop table customer;
+create column table customer(
+custId Int not NULL
+,custName varchar(100) not NULL
+,gender varchar(100) not NULL
+,age int not NULL
 ,primary key (custID));
 ```
 
@@ -242,7 +248,7 @@ insert into store.customer values ('102','Choi Ji Woo','F','24');
 
 ![](.gitbook/assets/image%20%28558%29.png)
 
-content &gt; 우클릭 &gt; new &gt; package
+Editor &gt; content &gt; 우클릭 &gt; new &gt; package
 
 package name: mypackage  
 description: ,ypackage ODATA Test  
@@ -307,6 +313,19 @@ Odata service를 위한 기능 파일을 두개 생성한다.
 
 ![](.gitbook/assets/image%20%28604%29.png)
 
+![](.gitbook/assets/image%20%28717%29.png)
+
+```text
+role mypackage::user
+{ catalog schema store: CREATE ANY, DROP, INDEX, SELECT, INSERT, UPDATE, DELETE;
+application privilege: mypackage::Execute;
+}
+```
+
+
+
+&lt;dksl아니며ㅕㄴ 다음과 ㅏㅌ이 해도됨&gt;
+
 세번째 탭 &gt; + 버튼 누르면 뜨는 다음과 같은 창: runbtime 선택, store 검색해서 아까 만든 strore schema 선택
 
 ![](.gitbook/assets/image%20%28592%29.png)
@@ -345,14 +364,8 @@ execute, 맨 처음꺼 클릭
 
 ```text
 service {
-"STORE"."BOOK" as "BOOK"
-create forbidden
-update forbidden
-delete forbidden;
-"STORE"."CUSTOMER" as "CUSTOMER"
-create forbidden
-update forbidden
-delete forbidden;
+"STORE"."BOOK" as "BOOK";
+"STORE"."CUSTOMER" as "CUSTOMER";
 }
 ```
 
