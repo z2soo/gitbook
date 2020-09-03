@@ -24,13 +24,13 @@ T-Code SE80/SE28 &gt; new Reoport 생성 &gt; 코드 입력
 
 ZABAP\_Z2SOO 이름으로 새로운 Program울 생성해 위의 코드를 붙여넣은 후에 activate 해주었다. 
 
-![](../../.gitbook/assets/image%20%28712%29.png)
+![](../../.gitbook/assets/image%20%28713%29.png)
 
 //
 
 se38 
 
-![](../../.gitbook/assets/image%20%28732%29.png)
+![](../../.gitbook/assets/image%20%28733%29.png)
 
 ![](../../.gitbook/assets/image%20%28682%29.png)
 
@@ -46,11 +46,11 @@ Secure Socket Layer 라는 보안 인증서 활성화 작업이 있으나, 회�
 
 {% embed url="https://www.digicert.com/kb/digicert-root-certificates.htm" %}
 
-![](../../.gitbook/assets/image%20%28725%29.png)
+![](../../.gitbook/assets/image%20%28726%29.png)
 
-![](../../.gitbook/assets/image%20%28700%29.png)
+![](../../.gitbook/assets/image%20%28701%29.png)
 
-![](../../.gitbook/assets/image%20%28748%29.png)
+![](../../.gitbook/assets/image%20%28749%29.png)
 
 ![](../../.gitbook/assets/image%20%28678%29.png)
 
@@ -66,25 +66,25 @@ SSL\_client\_SSL\_Client\(Anonymous\)를 클릭하고 들어오면 최초에는 
 
 
 
-![](../../.gitbook/assets/image%20%28729%29.png)
+![](../../.gitbook/assets/image%20%28730%29.png)
 
 ![](../../.gitbook/assets/image%20%28675%29.png)
 
-![](../../.gitbook/assets/image%20%28710%29.png)
-
-
-
-
-
-
-
 ![](../../.gitbook/assets/image%20%28711%29.png)
+
+
+
+
+
+
+
+![](../../.gitbook/assets/image%20%28712%29.png)
 
 ## 4. Git Repository 생성
 
-![](../../.gitbook/assets/image%20%28742%29.png)
+![](../../.gitbook/assets/image%20%28743%29.png)
 
-![](../../.gitbook/assets/image%20%28691%29.png)
+![](../../.gitbook/assets/image%20%28692%29.png)
 
 
 

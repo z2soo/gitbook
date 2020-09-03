@@ -174,13 +174,13 @@ Table 하위에 Book table이 생성되고, 빨간 오류가 뜨지 않으면 �
 
 open definition
 
-![](../.gitbook/assets/image%20%28753%29.png)
+![](../.gitbook/assets/image%20%28754%29.png)
 
 ![](../.gitbook/assets/image%20%28563%29.png)
 
 open content
 
-![](../.gitbook/assets/image%20%28757%29.png)
+![](../.gitbook/assets/image%20%28758%29.png)
 
 ![](../.gitbook/assets/image%20%28613%29.png)
 
@@ -313,7 +313,7 @@ Odata service를 위한 기능 파일을 두개 생성한다.
 
 ![](../.gitbook/assets/image%20%28604%29.png)
 
-![](../.gitbook/assets/image%20%28740%29.png)
+![](../.gitbook/assets/image%20%28741%29.png)
 
 ```text
 role mypackage::user
