@@ -36,6 +36,8 @@ se38
 
 ![](../../.gitbook/assets/image%20%28686%29.png)
 
+
+
 ## 3. SSL 설정
 
 Secure Socket Layer 라는 보안 인증서 활성화 작업이 있으나, 회사 서버를 사용함으로써 이 부분에 대한 설정이 따로 필요하지는 않았다. 만약 필요하다면, abapGit에서 제공하는 다음의 documentation과 자세하게 설명된 아래의 블로그 글을 참조하도록 한다. 
