@@ -22,7 +22,7 @@ T-Code SE80/SE28 &gt; new Reoport 생성 &gt; 코드 입력
 
 {% embed url="https://raw.githubusercontent.com/abapGit/build/master/zabapgit.abap" %}
 
-ZABAP\_Z2SOO 이름으로 새로운 Program울 생성해 위의 코드를 붙여넣은 후에 activate 해주었다. 
+ZABAPGIT 이름으로 새로운 Program울 생성해 위의 코드를 붙여넣은 후에 activate 해주었다. 
 
 ![](../../.gitbook/assets/image%20%28713%29.png)
 

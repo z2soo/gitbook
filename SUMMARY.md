@@ -5,6 +5,7 @@
 ## ABAP
 
 * [ABAP Study](abap/abap-study/README.md)
+  * [1주차](abap/abap-study/1.md)
   * [2주차](abap/abap-study/2.md)
   * [Untitled](abap/abap-study/untitled.md)
 * [Easy ABAP](abap/easy-abap/README.md)
