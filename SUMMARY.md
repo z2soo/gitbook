@@ -65,48 +65,15 @@
   * [엑셀 데이터 업로드 및 변환](abap-program-practice/untitled-1/undefined.md)
   * [Untitled](abap-program-practice/untitled-1/untitled.md)
 
-## Google Cloud Platform
-
-* [Cloud Platform](google-cloud-platform/cloud-platform/README.md)
-  * [Cloud Computing](google-cloud-platform/cloud-platform/cloud-computing.md)
-* [Associate Cloud Engineer](google-cloud-platform/associate-cloud-engineer.md)
-
 ## Project
 
 * [About Project](project/about-project/README.md)
   * [Project Overall](project/about-project/project.md)
   * [Project 유의사항](project/about-project/project-1.md)
 
-## DATABASE <a id="data-base"></a>
-
-* [Overall](data-base/overall/README.md)
-  * [DBMS](data-base/overall/dbms.md)
-  * [RDBMS](data-base/overall/rdbms.md)
-* [Oracle](data-base/oracle/README.md)
-  * [Oracle 설치 및 환경설정](data-base/oracle/oracle.md)
-
 ## Python
 
-* [Machine Learning 기초](python/machine-learning.md)
-* [Tensorflow 기초](python/tensorflow.md)
 * [Web crawling 용어](python/web-crawling.md)
-
-## R
-
-## IT News
-
-* [How computer works?](it-news/how-computer-works.md)
-* [How web works?](it-news/how-web-works.md)
-
-## Algorithm
-
-* [Skill for short coding](algorithm/skill-for-short-coding.md)
-* [BFS DFS](algorithm/bfs-dfs/README.md)
-  * [백준 1260 DFS와 BFS](algorithm/bfs-dfs/1260-dfs-bfs.md)
-  * [백준 2178 미로탐색](algorithm/bfs-dfs/2178.md)
-  * [백준 2667 단지번호 붙이기](algorithm/bfs-dfs/2667.md)
-  * [백준 7576 토마토](algorithm/bfs-dfs/7576.md)
-  * [백준 1697 숨바꼭질](algorithm/bfs-dfs/1697.md)
 
 ## JAVA SCRIPT
 
