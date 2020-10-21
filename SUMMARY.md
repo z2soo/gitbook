@@ -23,7 +23,6 @@
     * [작성중\_Table](abap/easy-abap/untitled/untitled.md)
     * [Table - Technical setting](abap/easy-abap/untitled/table-technical-setting.md)
   * [00. Useful skill](abap/easy-abap/useful-skill/README.md)
-    * [Enhancement category](abap/easy-abap/useful-skill/enhancement-category.md)
     * [작성중\_User Command](abap/easy-abap/useful-skill/_user-command.md)
     * [Text Symbol](abap/easy-abap/useful-skill/text-symbol.md)
     * [Field Help](abap/easy-abap/useful-skill/field-help.md)
@@ -53,7 +52,6 @@
   * [사원 데이터 변경 기능](abap-program-practice/undefined/undefined-3.md)
   * [사원 데이터 퇴직 변경](abap-program-practice/undefined/undefined-5.md)
   * [변경, 등록, 퇴직변경에 따른 INPUT 설정](abap-program-practice/undefined/input.md)
-  * [기타](abap-program-practice/undefined/untitled-1.md)
 * [인사 프로그램.ver2](abap-program-practice/.ver2/README.md)
   * [신호등 아이콘 추가](abap-program-practice/.ver2/undefined.md)
   * [툴바 버튼 및 이벤트 추가](abap-program-practice/.ver2/undefined-1.md)
@@ -64,20 +62,6 @@
 * [자재 마스터 업로드 프로그램](abap-program-practice/untitled-1/README.md)
   * [엑셀 데이터 업로드 및 변환](abap-program-practice/untitled-1/undefined.md)
   * [Untitled](abap-program-practice/untitled-1/untitled.md)
-
-## Project
-
-* [About Project](project/about-project/README.md)
-  * [Project Overall](project/about-project/project.md)
-  * [Project 유의사항](project/about-project/project-1.md)
-
-## Python
-
-* [Web crawling 용어](python/web-crawling.md)
-
-## JAVA SCRIPT
-
-* [HTML 기초문법](java-script/untitled.md)
 
 ## FIORI/UI5
 
